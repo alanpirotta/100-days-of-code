@@ -23,3 +23,13 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** Tenía muchas ganas de sentarme a codear, y estuve dos horas. La verdad que hoy me resultó simple y me siento más ordenado de que cosas ir probando. Todavía no tengo un proyecto grande planeado. Descubrí f-strings que era algo que es similar a los template string de JS (que los utilicé hasta el cansancio)
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D3
+
+**Progreso de hoy**: Realicé un proyecto corto de contador de palabras y otro de ingreso de datos y impresión de los mismos ordenados. realicé el primer examen de argentina programa, y seguí leyendo teoría y viendo videos del curso.
+
+**Conflictos** Me costó bastante generar la validación de que lo ingresado sea correcto (problemas con los tipos de datos del input y como reconocerlos). Lo resolví con la función .isdigit() de Strings.
+
+**Reflexiones:** Sigo con muchas energías de sentarme a estudiar, todo el día estoy pensando en eso. El canal de discrod donde me metí también me ayuda a incentivarme y sentir que comparto este mundo un poco más. Cuando me trabé con las validaciones me frustré, pero me tomé 10 minutos, volví y lo resolví
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
