@@ -33,3 +33,23 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** Sigo con muchas energías de sentarme a estudiar, todo el día estoy pensando en eso. El canal de discrod donde me metí también me ayuda a incentivarme y sentir que comparto este mundo un poco más. Cuando me trabé con las validaciones me frustré, pero me tomé 10 minutos, volví y lo resolví
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D4
+
+**Progreso de hoy**: Sólo una hora y monedas. Pude ver la clase de python del curso de codo a codo de funciones de strings y listas, realizar una función que devuelve el acrónima de la cadena ingresada y avanzar un poco en la teoría de argentina programa.
+
+**Conflictos** No hubo, fuera de la falta de tiempo
+
+**Reflexiones:** Hoy ayudé a una persona en discord con un problema de JS y pudo resolver la situaicón gracias a eso. Se sintió como un avance, por más que me falta comprender mil cosas, cada vez noto que tengo conocimientos más fuertes y ordenados. Tengo que aprender mejor el concepto del DOM, y como se manejanlas APIs y cloud en general.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D5
+
+**Progreso de hoy**: Cerca de dos horas. Clase de Codo a codo, aprendí sobre tuplas y un poco más de funciones en python. realicé un par de ejercicios de funciones
+
+**Conflictos** Terminé de trabajar cerca de las 20:00, me costó organizarme
+
+**Reflexiones:** Me sentí un poco desorganizado, pero es porque tengo la cabeza en el deadline del proyecto de mi laburo (la demo es para el 15/11/21) y un par de bugs complejos de las otras dos app que coordino. Apenas me senté igual, pasó volando el tiempo, como siempre.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
