@@ -50,6 +50,16 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 
 **Conflictos** Terminé de trabajar cerca de las 20:00, me costó organizarme
 
-**Reflexiones:** Me sentí un poco desorganizado, pero es porque tengo la cabeza en el deadline del proyecto de mi laburo (la demo es para el 15/11/21) y un par de bugs complejos de las otras dos app que coordino. Apenas me senté igual, pasó volando el tiempo, como siempre.
+**Reflexiones:** Me sentí un poco desorganizado, pero es porque tengo la cabeza en el deadline del proyecto de mi laburo (la demo es para el 15/11/21) y un par de bugs complejos de las otras dos app que coordino. Apenas me senté igual, pasó volando el tiempo, como siempre.+
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D6
+
+**Progreso de hoy**: Una hora y monedas. Ejercicios de funciones más complejos, aprendí sobre funciones lambda!
+
+**Conflictos** Para la función de cálculo de billetes para el cambio primero la definí de una forma que funcionaba, pero era horrible visualmente. La optimicé con varios ciclos y un strip para eliminar la coma del final.
+
+**Reflexiones:** volví cerca de las 12 de la noche a mi casa, pero con energías para ponerme y aprender un poco mas! Si salgo muchos días hasta tarde se me complicará un poco el seguimiento.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
