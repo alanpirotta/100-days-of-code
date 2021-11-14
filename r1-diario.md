@@ -63,3 +63,13 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** volví cerca de las 12 de la noche a mi casa, pero con energías para ponerme y aprender un poco mas! Si salgo muchos días hasta tarde se me complicará un poco el seguimiento.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D7
+
+**Progreso de hoy**: 7 horas. Ejercicios de funciones más complejos, Mucha lectura de teoría básica de Internet y modalidades de trabajo y manejo del tiempo. 
+
+**Conflictos** Hoy fue la primera vez que no pude sacar un ejercicio solo de forma completa. Pedí ayuda, mañana veré de resolverlo de nuevo
+
+**Reflexiones:** Tengo que organizarme mejor para aprovechar el tiempo y enfocar los esfuerzos. Aprendí más sobre SCRUM y meetodologías ágiles y la verdad que es re interesante.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
