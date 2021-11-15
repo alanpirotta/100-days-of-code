@@ -73,3 +73,13 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** Tengo que organizarme mejor para aprovechar el tiempo y enfocar los esfuerzos. Aprendí más sobre SCRUM y meetodologías ágiles y la verdad que es re interesante.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D8
+
+**Progreso de hoy**: 4 horas aprox. Ejercicios de listas y conjuntos de python, seguimiento del curso de soyDalto de JS. Testeo y corrección de un trabajo integrador de JS de un conocido. Logré sacar el problema que no pude ayer! Pequeña investigación sobre entrevistas y puestos disponibles para ayudarme a encaminarme.
+
+**Conflictos** Me costó occentrarme cuando me senté a programar, por eso me puse la clase para ayudarme a seguir de otra forma
+
+**Reflexiones:** No se pueden hacer bucles eliminando elementos de una lista, porque salta elementos al hacerlo. A corot plazo quiero aprender más sobre APIs y como generarlas, y sobre data análisis y data science.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
