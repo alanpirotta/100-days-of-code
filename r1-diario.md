@@ -83,3 +83,13 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** No se pueden hacer bucles eliminando elementos de una lista, porque salta elementos al hacerlo. A corot plazo quiero aprender más sobre APIs y como generarlas, y sobre data análisis y data science.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D9
+
+**Progreso de hoy**: 2 horas y media aprox. Ejercicios de diccionarios y métodos de listas/string en python (sólo un par), lectura sobre uso de Git, Github y Gitflow. realicé commits desde el VScode!
+
+**Conflictos** El trabajo me agotó hoy por un deadline de una demo de un proyecto para mañana, fue el primer día que dudé de sentarme (aunque tenía muchas ganas, no tenía energía)
+
+**Reflexiones:** Estoy al día con codo a codo, y muy adelantado con argentina programa. Mañana voy a dedicar un tiempo a organizar un poco un plan para ir avanzando por fuera de esos dos cursos.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
