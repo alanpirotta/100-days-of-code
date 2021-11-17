@@ -93,3 +93,13 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** Estoy al día con codo a codo, y muy adelantado con argentina programa. Mañana voy a dedicar un tiempo a organizar un poco un plan para ir avanzando por fuera de esos dos cursos.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D10
+
+**Progreso de hoy**: hora y media. Clase de codoAcodo de python y ejercicios simples de clases. 
+
+**Conflictos** Entre el deadline y un par de problemas de organización de la empresa, el trabajo hoy me drenó completamente. Logré sentarme cuando recuperé energías recién a la noche. Tuve conflictos (que no pude resolver del todo) con dos ejercicios que piden ingresar como atributo una instancias de clase, pero comparar sólo un atributo de ellas, y devolver la clase en si misma. 
+
+**Reflexiones:** EStuve todo el día organizando situaciones laborales, y la verdad que no tenía energías para hacerlo después de hora, pero seguí con el curso de codo a codo, y me pasó lo que pasa normalmente, que apenas me siento, se me borran todas las preocupaciones y el cansancio y me concentro re bien.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
