@@ -103,3 +103,13 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** EStuve todo el día organizando situaciones laborales, y la verdad que no tenía energías para hacerlo después de hora, pero seguí con el curso de codo a codo, y me pasó lo que pasa normalmente, que apenas me siento, se me borran todas las preocupaciones y el cansancio y me concentro re bien.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D11
+
+**Progreso de hoy**: Dos horas. Cursos de habilidades blandas de Accentur y ejercicios más complejos de clases
+
+**Conflictos** No resolví el ejercicio que no pude ayer de comparar atributos de dos instancias de clase, y retornar una de las dos clases, tengo que revisar teoría y ver la última clase del curso.
+
+**Reflexiones:** Decidí pasar de ese ejercicio que no me salió por ahora, y a pesar de que iba a dedicarle una hora máximo a estudiar hoy, terminé enganchandome y sólo corté porque se hizo muy tarde. 
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
