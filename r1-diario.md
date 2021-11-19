@@ -113,3 +113,13 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** Decidí pasar de ese ejercicio que no me salió por ahora, y a pesar de que iba a dedicarle una hora máximo a estudiar hoy, terminé enganchandome y sólo corté porque se hizo muy tarde. 
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D12
+
+**Progreso de hoy**: Dos horas y media. La agenda de contactos está terminada, Aprendí de generator expressions en python. Aprendí que sirve mucho tener un sector de pruebas para probar rápido partes del código
+
+**Conflictos** Estuve más de media hora con un error de un loop, hasta que me di cuenta que era por poner el primer input fuera del loop y no poner parentesis en el while not.
+
+**Reflexiones:** El tiempo que estuve trabado con el loop me frustró bastante, fue la primera vez que me trabé en algo que ya sabía hacer. Pero volviendo a las bases, viendo teoría y descansar un poco, lo saqué y la verdad que se sintió excelente.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
