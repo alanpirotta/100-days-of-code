@@ -123,3 +123,14 @@ El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 **Reflexiones:** El tiempo que estuve trabado con el loop me frustró bastante, fue la primera vez que me trabé en algo que ya sabía hacer. Pero volviendo a las bases, viendo teoría y descansar un poco, lo saqué y la verdad que se sintió excelente.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D13
+
+**Progreso de hoy**: una hora y algo. Clase del curso de codo a codo. Resolví los problemas de clases que tenía trabados. para acceder a losatributos de una instancia de una clase y comparar con otra se pueda usar la sintaxis: 
+clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como variable)
+
+**Conflictos** Pude arrancar muy tarde, no tuve mucho tiempo y estaba cansado.
+
+**Reflexiones:** Finalmente resolví ese tema que me tenía hace tres días! Comprendí mucho más el funcionamiento de las clases.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
