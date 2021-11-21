@@ -134,3 +134,14 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 **Reflexiones:** Finalmente resolví ese tema que me tenía hace tres días! Comprendí mucho más el funcionamiento de las clases.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D14
+
+**Progreso de hoy**: 4 horas y media. Inicié la certificación de Scientific Computing with Python en freecodecamp.org. realicé los últimos ej pendientes de clases de codo a codo. 
+
+**Conflictos** Quise agarrar el primer proyecto de freecodecamp, y me maree bastante con la forma que lo pedían. Creo que me acostumbré demasiado al VScode.
+
+**Reflexiones:** Hoy fue poco codear y bastante de avance y afianzamiento de teoría. Tengo que aprender a salir un poco de la comidad del VScode y adaptarme a otras situaciones.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython 
+**Certificación en proceso** https://www.freecodecamp.org/learn/scientific-computing-with-python
