@@ -145,3 +145,23 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython 
 **Certificación en proceso** https://www.freecodecamp.org/learn/scientific-computing-with-python
+
+### R1D15
+
+**Progreso de hoy**: 1 hora. Continué con la certificación de Scientific Computing with Python en freecodecamp.org. 
+
+**Conflictos** No estuve en casa en casi todo el día.
+
+**Reflexiones:** Me vino bien salir y hacer otra cosa para cambiar el aire.
+
+**Certificación en proceso** https://www.freecodecamp.org/learn/scientific-computing-with-python
+
+### R1D16
+
+**Progreso de hoy**: No controlé el tiempo, pero fueron más de 3 horas. Actualicé y mejoré mi linkedIn y la página web personal. Probé situaciones simples de socket networking.
+
+**Conflictos** Me resulta muy complejo el tema de los socket.
+
+**Reflexiones:** Hoy no tenía muchas energías para programar, por lo cual me puse a hacer actividades periféricas, como mejorar mi perfil para cuando salga a buscar trabajo activamente. Sin embargo, al final del día me dieron ganas y me puse a ver el tema de conexiones a sockets. Los siguientes días me concentraré principalmente en eso es muy importante entender bien su funcionamiento y como usarlo.
+
+**Certificación en proceso** https://www.freecodecamp.org/learn/scientific-computing-with-python
