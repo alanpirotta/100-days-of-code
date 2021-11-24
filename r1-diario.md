@@ -165,3 +165,13 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 **Reflexiones:** Hoy no tenía muchas energías para programar, por lo cual me puse a hacer actividades periféricas, como mejorar mi perfil para cuando salga a buscar trabajo activamente. Sin embargo, al final del día me dieron ganas y me puse a ver el tema de conexiones a sockets. Los siguientes días me concentraré principalmente en eso es muy importante entender bien su funcionamiento y como usarlo.
 
 **Certificación en proceso** https://www.freecodecamp.org/learn/scientific-computing-with-python
+
+### R1D17
+
+**Progreso de hoy**: 3 horas. realicé completo el tutorial de react del juego del ta-te-ti.
+
+**Conflictos** Me costó un poco volver a la sintaxis de JS, pero no fue tan grave.
+
+**Reflexiones:** Decidí investigar react por una semana, para después definir si seguir por el camino de FE o de python en diciembre. No me gustó especialmente seguir un tutorial, aunque comprendiera todos los pasos y puediera razonarlos.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/React-tateti
