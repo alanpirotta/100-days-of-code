@@ -175,3 +175,14 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 **Reflexiones:** Decidí investigar react por una semana, para después definir si seguir por el camino de FE o de python en diciembre. No me gustó especialmente seguir un tutorial, aunque comprendiera todos los pasos y puediera razonarlos.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/React-tateti
+
+### R1D18
+
+**Progreso de hoy**: 3 horas. Primeros tres módulos de curso profesional de React de https://codigofacilito.com/.
+
+**Conflictos** Empecé frustrado porque no le encontraba la vuelta. A la hora ya entré en ritmo y comencé a entender la lógica.
+
+**Reflexiones:** Me pasó lo mismo con python, cuando empiezo algo de cero me siento un poco perdido por un momento, pero mientras no me deje llevar por eso, no me dura mucho.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/curso-react-codigoFacilito
+**Certificación en proceso** https://codigofacilito.com/cursos/react-profesional
