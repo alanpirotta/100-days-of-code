@@ -186,3 +186,14 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/curso-react-codigoFacilito
 **Certificación en proceso** https://codigofacilito.com/cursos/react-profesional
+
+### R1D19
+
+**Progreso de hoy**: 2 horas. Dos módulos de curso profesional de React de https://codigofacilito.com/.
+
+**Conflictos** Hasta ahora es el tema que más me está costando agarrar de una, la sintaxis se me complica, pero voy asentando bases mediante equivocarme
+
+**Reflexiones:** Es interesante y creo que es buen aprendizaje aunque después decida seguir con python. Por más que codear mientras veo la clase sirve, creo que avanzo más rápido si cuando veo la teoría y después codeo por mi lado.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/curso-react-codigoFacilito
+**Certificación en proceso** https://codigofacilito.com/cursos/react-profesional
