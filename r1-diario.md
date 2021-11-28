@@ -197,3 +197,15 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/curso-react-codigoFacilito
 **Certificación en proceso** https://codigofacilito.com/cursos/react-profesional
+
+### R1D20
+
+**Progreso de hoy**: 4 horas. Modulos restantes del curso de React en códigofacilito.
+
+**Conflictos** Ninguno de importancia
+
+**Reflexiones:** Comprendo la gran utilidad de React, pero no me incentiva tanto como lo hizo JS nativo y Python hasta ahora. Creo que es la escasez de consideraciones lógicas, pero puede ser porque estaba viendo lo más básico
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/curso-react-codigoFacilito
+**Certificación en proceso** https://codigofacilito.com/cursos/react-profesional
+
