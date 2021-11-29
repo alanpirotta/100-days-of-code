@@ -209,3 +209,14 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 **Enlace a mi trabajo:** https://github.com/alanpirotta/curso-react-codigoFacilito
 **Certificación en proceso** https://codigofacilito.com/cursos/react-profesional
 
+### R1D21
+
+**Progreso de hoy**: 5 horas. Aprobación Curso profesional de React. Comienzo curso React SPA en codigo facilito.
+
+**Conflictos** Estuve una hora por un error donde no funcionaba el componente Provider de redux. Al final se solucionó configurando todo en el mismo archivo (luego lo volví a generar en un archivo separado), reinstalando npm react-redux y reiniciando todo, pero ya lo había intentado antes y no había funcionado. 
+
+**Reflexiones:** Comencé este curso para cumplir la semana que me propuse de React, pero sigue sin generarme lo mismo que lo anterior. Me frustré mucho en la hora perdida, tengo que acostumbrarme a cortar antes por un rato si me trabo así (me fui15 min y cuando volví lo solucioné apenas me senté).
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/video-app-react-spa
+**Certificación en proceso** https://codigofacilito.com/cursos/react-single-page-apps
+
