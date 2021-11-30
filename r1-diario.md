@@ -220,3 +220,13 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 **Enlace a mi trabajo:** https://github.com/alanpirotta/video-app-react-spa
 **Certificación en proceso** https://codigofacilito.com/cursos/react-single-page-apps
 
+### R1D22
+
+**Progreso de hoy**: 2 horas y algo. Terminar con mi semana de React. Clases de curso codo a codo. 
+
+**Conflictos** Estuve una hora tratando de levantar el proyecto del curso de react, que me tiraba error 404 a pesar de no haber tocado nada. No logré solucionarlo. 
+
+**Reflexiones:** React me resultó interesante, pero no lo suficiente. Al mismo tiempo, creo que para usarlo mejor tengo que tener mejores bases de JS de las que tengo actualmente (los dos conflictos que tuve me hicieron perder mucho tiempo, pero no comprendí el 100% de por que ocurría). Luego de esta semana, decidí volver a python (toda la semana quise agarrarlo) y avanzar en ese camino a corto plazo. también decidí además de ejercicios y mini proyectos, iré estudiando un poco más los algoritmos más importantes.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/video-app-react-spa
+
