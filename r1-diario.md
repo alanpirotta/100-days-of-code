@@ -230,3 +230,15 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/video-app-react-spa
 
+### R1D23
+
+**Progreso de hoy**: 2 horas y media. Ejercicio de herencia en python. algoritmo binarySearch. 
+
+**Conflictos** ninguno
+
+**Reflexiones:** Volver a python me incentivó muchísimo. Volvió la emoción y energías. Voy a estudiar un algoritmo de https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b cada dos días aprox, mientras avanzo con ejercicios y proyectos. El fin de semana empezaré el proyecto final de codo a codo (CRUD fullStack)
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/practicas-algoritmos
+                         https://github.com/alanpirotta/proyectosCortosPython
+
+                         
