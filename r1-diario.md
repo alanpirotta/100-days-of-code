@@ -241,4 +241,15 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 **Enlace a mi trabajo:** https://github.com/alanpirotta/practicas-algoritmos
                          https://github.com/alanpirotta/proyectosCortosPython
 
+### R1D24
+
+**Progreso de hoy**: 1 hora. Ejercicio de herencia en python. Fin algoritmo binarySearch. Aprendí sobre __class__ y __class__.__name__ para llamar el nombre de la clase.
+
+**Conflictos** llegue my tarde a casa, estaba cansado y más lento.
+
+**Reflexiones:** A pesar de llegar muy tarde, tenía ganas de sentarme y seguir. Es una muy buena señal!
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/practicas-algoritmos
+                         https://github.com/alanpirotta/proyectosCortosPython
+
                          
