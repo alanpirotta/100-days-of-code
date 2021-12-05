@@ -253,3 +253,21 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
                          https://github.com/alanpirotta/proyectosCortosPython
 
                          
+### R1D25
+
+**Progreso de hoy**: 1 hora. Clases de curso codo a codo sobre Flask.
+
+**Conflictos** No pude sentarme en la PC, sólo pude estudiar desde el celular
+
+**Reflexiones:** Día poco productivo, pero al menos pude avanzar 
+
+### R1D26
+
+**Progreso de hoy**: 3 horas. ejercicios de herencia y excepciones en python. Comienzo de proyecto CRUD fullstack de agenda de contactos.
+
+**Conflictos** Estuve más de una hora configurando los permisos del VS code e instalando flask, había conflicots y no lo reconocía (a pesar de que igual lo corría desde consola y funcionaba).
+
+**Reflexiones:** Fue bastante frustrante el tiempo mientras buscaba como solucionar el conflicto, pero al solucionarlo se sintió muy bien y es un conocimiento que me sirve a futuro (aprendí más sobre los path, la instalación de python y pip). Estoy emocionado por el proyecto este!
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/agenda-contactos
+                         https://github.com/alanpirotta/proyectosCortosPython
