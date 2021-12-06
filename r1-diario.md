@@ -271,3 +271,14 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/agenda-contactos
                          https://github.com/alanpirotta/proyectosCortosPython
+
+### R1D27
+
+**Progreso de hoy**: 4 horas. Comprención de algoritmos BFS y DFS. Avance en proyecto CRUD agenda de contactos
+
+**Conflictos** Para comprender 100% los algoritmos tengo que estudiar mejorlas bases de DSA (análisis de estructura de datos). Varios conflictos de errores con Flask. Tuve que anular en environment e instalar directo todo.
+
+**Reflexiones:** No voy a concentrarme tanto en los algoritmos hasta entender un poco mejor estructura de datos (me emociona aprender sobre eso). El proyecto avanza rápido, aunque hacerlo con un tutorial reduce un poco lo que aprendo, le voy ahciendo cambios a todo para ir aprendiendo bien que hace cada cosa, y buscando documentación de cada función que utilizo. Aunque me doy cuenta cada día que hay más cosas que aprender, estoy muy emocionado con mis avances y mi camino!
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/agenda-contactos
+                         https://github.com/alanpirotta/practicas-algoritmos            
