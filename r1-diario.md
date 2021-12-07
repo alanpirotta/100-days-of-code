@@ -274,7 +274,7 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 
 ### R1D27
 
-**Progreso de hoy**: 4 horas. Comprención de algoritmos BFS y DFS. Avance en proyecto CRUD agenda de contactos
+**Progreso de hoy**: 4 horas. Comprensión de algoritmos BFS y DFS. Avance en proyecto CRUD agenda de contactos
 
 **Conflictos** Para comprender 100% los algoritmos tengo que estudiar mejorlas bases de DSA (análisis de estructura de datos). Varios conflictos de errores con Flask. Tuve que anular en environment e instalar directo todo.
 
@@ -282,3 +282,13 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/agenda-contactos
                          https://github.com/alanpirotta/practicas-algoritmos            
+
+### R1D28
+
+**Progreso de hoy**: 3 horas y media horas. Finalización de app agenda de contactos (CRUD con Flask y bootstrap)
+
+**Conflictos** Tuve un conflicto con la función flash y get_flashed_messages que no pude solucionar (me tira type error un objeto función no es iterable). Descubrí que es cuando hago un for de los mensajes en el template, pero no descubrí por qué pasa. Tendría que ver un poco mejor la función esa de Flask.
+
+**Reflexiones:** El proyecto este fue un poco decepcionante, siento que fue muy simple, pero no usé los conocimientos que obtuve. Me pasa eso con los framworks, me da la sensación de que simplifican, pero terminás haciendo cosas que no entendés completamente por qué ocurren. Seguramente cuando ahonde mucho en una igual empezaré a comprender como funciona y modificarla a mi antojo, pero en esta etapa es aprender las bases para poder hacer eso luego.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/agenda-contactos   
