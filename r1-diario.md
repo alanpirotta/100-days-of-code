@@ -292,3 +292,15 @@ clase.metodoGetAtritubuto(instancia de la clase ingresada en el método como var
 **Reflexiones:** El proyecto este fue un poco decepcionante, siento que fue muy simple, pero no usé los conocimientos que obtuve. Me pasa eso con los framworks, me da la sensación de que simplifican, pero terminás haciendo cosas que no entendés completamente por qué ocurren. Seguramente cuando ahonde mucho en una igual empezaré a comprender como funciona y modificarla a mi antojo, pero en esta etapa es aprender las bases para poder hacer eso luego.
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/agenda-contactos   
+
+### R1D29
+
+**Progreso de hoy**: 5 horas. Completé un taller de consumo de APIS y autenticaciones con Python y comencé con un curso de ciencia de datos para aprender un poco mejor las bases y aplicaciones de la misma.
+
+**Conflictos** Tuve varios conflictos con la parte de autenticación, no pude resolver la creación de un repo desde github (no me tira error, y me retorna lo mismo que un get), probablemente en un tiempo vea de nuevo eso a ver si lo saco.
+
+**Reflexiones:** Finalmente arranqué a ver algo de APIs y de ciencia de datos, los dos temas que siempre quedaban postergados. No voy a negar que por más que me emociona y me encanta, también me genera muchos nervios. Los siguientes días seguiré con ciencia de datos, para confirmar si me gusta tanto como creo.
+Nota aparte: Me di cuenta que realmente quiero saber como automatizar tareas cotidianas pero necesito investigar y practicar, pero no estoy seguro todavía de como introducirlo en mi organización. En los siguientes días lo definiré.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
+**Certificación en proceso** https://codigofacilito.com/videos/proceso-en-la-ciencia-de-datos
