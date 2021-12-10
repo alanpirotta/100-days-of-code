@@ -304,3 +304,14 @@ Nota aparte: Me di cuenta que realmente quiero saber como automatizar tareas cot
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/proyectosCortosPython
 **Certificación en proceso** https://codigofacilito.com/videos/proceso-en-la-ciencia-de-datos
+
+### R1D30
+
+**Progreso de hoy**: 2 horas y algo. Hoy no programé, pero seguí cursos de data science de código facilito, y vi conceptos básicos para arrancar a aprender para data science. Finalicé el curso de bases y conceptos de ciencia de datos.
+
+**Conflictos** Ninguno
+
+**Reflexiones:** Me fascina! no sólo es interesante a nivel programación y lo que implica, sino que sirve un poco lo que aprendí en química (fuera del pensamiento lógico) y mucha de mi experiencia en LAIA como la comunicación entre áreas, obtención de información de ellas, y mi rol como product owner de las apps 
+
+**Enlace a mi trabajo:** 
+**Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python
