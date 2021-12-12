@@ -315,3 +315,26 @@ Nota aparte: Me di cuenta que realmente quiero saber como automatizar tareas cot
 
 **Enlace a mi trabajo:** 
 **Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python
+
+### R1D31
+
+**Progreso de hoy**: 2 horas. No programé, pero me puse al día con las clases del curso de fullstack python de codo a codo
+
+**Conflictos** Me sacaron un quiste de la espalda, con lo cual no podía mover bien el brazo
+
+**Reflexiones:** Mañana me tengo que sentar si o si, porque tres días seguidos y cuando estoy empezando algo nuevo va a hacer que me cueste mucho más agarrarlo. 
+
+**Enlace a mi trabajo:** 
+**Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python
+
+### R1D32
+
+**Progreso de hoy**: 3 horas y media. Seguí el curso de introducción al análisis de datos. Aprendí a usa ipython y numpy! Aprobé la ceritifcación de python básica de códigoFacilito 
+
+**Conflictos** Ninguna
+
+**Reflexiones:** ES la primera vez que una librería me gusta! Mientras aprendo esto pienso en usos para mi trabajo, y tengo ganas de probarlo. Todos son buenos indicios de que esto es lo que me interesa. Sin embargo, tengo que agarrar pronto algún proyecto propio de cero sin tutorial, hace ya varios días que no práctico cosas desde cero y no quiero caer en la situación de ver muchas clases y tutoriales y no aprender codeando.
+Decidí hacer el examen del curso de python de codigoFacilito porque eran todos temas que estuve viendo en codo a codo y por mi cuenta, pero no tenía ninguna certificación de eso. De las 21 preguntas sólo 3 no sabía, y dos eran de convenciones (las funciones van con snake_case por ej)
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/ciencia-datos
+**Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python
