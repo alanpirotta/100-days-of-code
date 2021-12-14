@@ -338,3 +338,25 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/ciencia-datos
 **Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python
+
+### R1D33
+
+**Progreso de hoy**: hora y media. Averigué, inscribí y comencé el curso de CS50. Uní varios conceptos básicos que ya sabía pero no los había unido (como código binario con todos los formatos numéricos como ascii, rgb, etc) 
+
+**Conflictos** No programé.
+
+**Reflexiones:** No tenía mucho tiempo, y encontré ese curso y me pareció un buen complemento al estudio de datos, donde puedo dividir los días en uno u otro.
+
+**Enlace a mi trabajo:** 
+**Certificación en proceso** https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home
+
+### R1D34
+
+**Progreso de hoy**: dos horas y media. Clase final de codo a codo y un poco de búsqueda de información para ciencia de datos. Preinscripción para curso de big data y data analysis en codo a codo de 2022
+
+**Conflictos** No programé.
+
+**Reflexiones:** Finalmente terminé el curso de fullStack! me pareció interesante y aprendí muchísimo, pero ya estaba para pasa a la siguiente etapa. Mañana, a codear y seguir el curso de ciencia de datos!
+
+**Enlace a mi trabajo:** 
+**Certificación en proceso** https://www.buenosaires.gob.ar/educacion/codo-codo
