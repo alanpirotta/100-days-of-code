@@ -360,3 +360,15 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 
 **Enlace a mi trabajo:** 
 **Certificación en proceso** https://www.buenosaires.gob.ar/educacion/codo-codo
+
+### R1D35
+
+**Progreso de hoy**: 2 horas. primera lección de CS50 terminé sección de numPy del curso de códigoFacilito
+
+**Conflictos** 
+
+**Reflexiones:** No estaba de ánimo pero me senté y siempre me pasa lo mismo, me copé y seguí. Creo que es una señal excelente que me pase eso y me siga pasando.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/ciencia-datos
+**Certificación en proceso** https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home
+                             https://codigofacilito.com/cursos/analisis-datos-python
