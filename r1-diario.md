@@ -372,3 +372,17 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/ciencia-datos
 **Certificación en proceso** https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home
                              https://codigofacilito.com/cursos/analisis-datos-python
+
+### R1D36
+
+**Progreso de hoy**: 2 horas. Avance del curso de codigoFacilito (sección pandas). Investigué y comencé a usar kaggle, anaconda y jupyterLabs!
+
+**Conflictos** Tengo que investigar si jupyterLabs tiene autocompletado para hacer más rápido
+
+**Reflexiones:** Me animé a investigar sobre anaconda, jupyterLabs y Kaggle!! era la última traba mental que tenía de largarme seriamente a aprender manejo de datos. Los siguientes días me concentraré en esto, para ver si termino mi primer competencia.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python
+
+**Competencia de Kaggle en progreso** https://www.kaggle.com/c/titanic
