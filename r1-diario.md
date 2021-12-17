@@ -386,3 +386,19 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python
 
 **Competencia de Kaggle en progreso** https://www.kaggle.com/c/titanic
+
+### R1D37
+
+**Progreso de hoy**: 2 horas. Primer submission de una competencia de Kaggle! Comienzo de curso de intro a machine learning de kaggle y de un libro sobre el mismo tema. Encontré la configuración para que jupyter labs autocierre los brackets
+
+**Conflictos** ninguno :D
+
+**Reflexiones:** Realmente estoy muy emocionado, y creo que esto es lo que quiero hacer. Me falta  mucho para avanzar, pero creo que al menos en una primer instancia kaggle y codigoFacilito me ayudarán como guías mientras investigo cosas por mi cuenta. Comencé la lectura porque cuando no tengo una PC cerca muchas veces quiero estudiar y no quiero ver demasiados videos (me generan adicción y falsa sensación de avance muchas veces)
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** https://www.kaggle.com/learn/intro-to-machine-learning 
+                            
+**Competencia de Kaggle en progreso** https://www.kaggle.com/c/titanic
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
