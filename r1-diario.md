@@ -402,3 +402,37 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Competencia de Kaggle en progreso** https://www.kaggle.com/c/titanic
 
 **Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+### R1D38
+
+**Progreso de hoy**: 1 hora. no tuve tiempo, sólo pude leer un poco del libro y ver una clase del curso de código facilito, hasta lograr llegar a la hora
+
+**Conflictos** 
+
+**Reflexiones:** 
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** https://www.kaggle.com/learn/intro-to-machine-learning 
+                             https://codigofacilito.com/cursos/analisis-datos-python
+                            
+**Competencia de Kaggle en progreso** 
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+### R1D39
+
+**Progreso de hoy**: 2 horas y media. Lectura del libro y seguimiento del curso de kaggle, overfitting y underfitting, y calculo de cantidad óptima de hojas en un Decision Tree.
+
+**Conflictos**  Me trabé 30 min porque me faltaba redefinir una variable en el loop y no obtenía el resultado. Logré desglosar el código y descubrir conde estaba el error finalmente!
+
+**Reflexiones:** Tengo que acostumbrarme más a usar las diferentes formas de sintaxis, como las generator expressions, creo que cada vez son más útiles/necesarias. Hoy estaba MUY cansado de la semana, me costó bastante empezar, por eso agarré el libro en primera instancia
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** https://www.kaggle.com/learn/intro-to-machine-learning 
+                             https://codigofacilito.com/cursos/analisis-datos-python
+                            
+**Competencia de Kaggle en progreso** 
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
