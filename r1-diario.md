@@ -436,3 +436,19 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Competencia de Kaggle en progreso** 
 
 **Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+### R1D40
+
+**Progreso de hoy**: Una hora. Finalización del curso de kaggle y submission de Iowa-housing. RandomForestRegression y actualización del perfil de linkedin (descripción de puestos de trabajo y de certificados de codo a codo y kaggle)
+
+**Conflictos**  ninguno fuera de la falta de tiempo y que estaba muy cansado.
+
+**Reflexiones:** Me siguió el cansancio hoy, además de que tuve que ayudar en una mudanza. La verdad que estaba agotado. Aun que me cueste sentarme en estos días, sigue pasandome que se me calma la mente y me olvido de los problemas al hacerlo. Creo que estoy avanzando bien, aunque no se si llegaré a adquirir los suficientes conocimientos de data science para el deadline que me puse.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python
+                            
+**Competencia de Kaggle en progreso**  
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
