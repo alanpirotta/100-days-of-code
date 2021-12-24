@@ -492,12 +492,34 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 
 **Progreso de hoy**: Dos horas. Seguí con el curso de pandas de kaggle. 
 
-**Conflictos**  Hoy me encontré con varios agujeros de conocimiento, el map, las lambda functions, y algunos conceptos no fijados (como asignación y creación de columnas en DF, unificar columnas mediante fórmulas). SIEMPRE me olvido del 2in" cuando quiero ver si un substring se encuentra dentro del string.
+**Conflictos**  Hoy me encontré con varios agujeros de conocimiento, el map, las lambda functions, y algunos conceptos no fijados (como asignación y creación de columnas en DF, unificar columnas mediante fórmulas). SIEMPRE me olvido del "in" cuando quiero ver si un substring se encuentra dentro del string.
 
 **Reflexiones:** Fue un día bastante frustrante porque no me salía nada, pero muy bueno porque la investigación que tuve que hacer me fijó varios conocimientos muy útiles y necesarios. Que descubriera esos puntos débies significa que avanzo :)
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
                          https://github.com/alanpirotta/ciencia-datos
+
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
+                             https://www.kaggle.com/learn/pandas
+                            
+**Competencia de Kaggle en progreso**  
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D44
+
+**Progreso de hoy**:  2 horas. Seguí con el curso de pandas de kaggle. 
+                            - DataFrame.apply: sirve para modificar todos los valores en u n DF. el "axis" es para definir si lo hace en cada columna o en cada fila.
+                            - DataFrame.groupby([columna]): Agrupa todas las filas con el mismo valor. (símil a tablas dinámicas en excel)
+                            - DataFrma.groupby().size(): Devuelve una series con la cantidad de entradas de cada agrupación.
+                            - sort_values(): si es una series no necesita "by=", si es un DF requiere que se seleccione la columna. 
+
+**Conflictos**  me cuesta mucho interiorizar el axis='columns' sirva para ir sobre todas las filas, es al revés de mi intuición (terminé pensandolo como "todos los valores de una columna" pero algo no me cierra)
+
+**Reflexiones:**  Con el tema del deadline estaba acelerando mucho el estudio, lo cual creo que empecé a entrar en lo que no quería, que era adquirir mucha información pero no asimlarla completamente. Estoy haciendo lentamente el curso de pandas este, pero porque estoy investigando mucho más que antes cada cosa (incluso estoy yendo a la documentación de pandas)
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+                         https://github.com/alanpirotta/ciencia-datos *hoy no*
 
 **Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
                              https://www.kaggle.com/learn/pandas
