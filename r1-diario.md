@@ -472,16 +472,34 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 
 ### R1D42
 
+**Progreso de hoy**: Dos horas. Seguí con el curso de código facilito de EDA. 
+
+**Conflictos**  Estoy medio enfermo y me está costando bastante.
+
+**Reflexiones:** Cada día  me estoy sintiendo un poco peor, voy a fijarme los siguientes días de hacer las cosas más calmado hasta recuperarme
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+                         https://github.com/alanpirotta/ciencia-datos
+
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion 
+                             https://www.kaggle.com/learn/pandas *hoy no*
+                            
+**Competencia de Kaggle en progreso**  
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D43
+
 **Progreso de hoy**: Dos horas. Seguí con el curso de pandas de kaggle. 
 
-**Conflictos**  Hoy me encontré con varios agujeros de conocimiento, el map, las lambda functions, y algunos conceptos no fijados (como asignación y creación de columnas en DF, unificar columnas mediante fórmulas)
+**Conflictos**  Hoy me encontré con varios agujeros de conocimiento, el map, las lambda functions, y algunos conceptos no fijados (como asignación y creación de columnas en DF, unificar columnas mediante fórmulas). SIEMPRE me olvido del 2in" cuando quiero ver si un substring se encuentra dentro del string.
 
 **Reflexiones:** Fue un día bastante frustrante porque no me salía nada, pero muy bueno porque la investigación que tuve que hacer me fijó varios conocimientos muy útiles y necesarios. Que descubriera esos puntos débies significa que avanzo :)
 
 **Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
                          https://github.com/alanpirotta/ciencia-datos
 
-**Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python *hoy no*
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
                              https://www.kaggle.com/learn/pandas
                             
 **Competencia de Kaggle en progreso**  
