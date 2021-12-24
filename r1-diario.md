@@ -469,3 +469,21 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Competencia de Kaggle en progreso**  
 
 **Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+### R1D42
+
+**Progreso de hoy**: Dos horas. Seguí con el curso de pandas de kaggle. 
+
+**Conflictos**  Hoy me encontré con varios agujeros de conocimiento, el map, las lambda functions, y algunos conceptos no fijados (como asignación y creación de columnas en DF, unificar columnas mediante fórmulas)
+
+**Reflexiones:** Fue un día bastante frustrante porque no me salía nada, pero muy bueno porque la investigación que tuve que hacer me fijó varios conocimientos muy útiles y necesarios. Que descubriera esos puntos débies significa que avanzo :)
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+                         https://github.com/alanpirotta/ciencia-datos
+
+**Certificación en proceso** https://codigofacilito.com/cursos/analisis-datos-python *hoy no*
+                             https://www.kaggle.com/learn/pandas
+                            
+**Competencia de Kaggle en progreso**  
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
