@@ -509,10 +509,7 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 ### R1D44
 
 **Progreso de hoy**:  2 horas. Seguí con el curso de pandas de kaggle. 
-                            - DataFrame.apply: sirve para modificar todos los valores en u n DF. el "axis" es para definir si lo hace en cada columna o en cada fila.
-                            - DataFrame.groupby([columna]): Agrupa todas las filas con el mismo valor. (símil a tablas dinámicas en excel)
-                            - DataFrma.groupby().size(): Devuelve una series con la cantidad de entradas de cada agrupación.
-                            - sort_values(): si es una series no necesita "by=", si es un DF requiere que se seleccione la columna. 
+                             
 
 **Conflictos**  me cuesta mucho interiorizar el axis='columns' sirva para ir sobre todas las filas, es al revés de mi intuición (terminé pensandolo como "todos los valores de una columna" pero algo no me cierra)
 
@@ -524,6 +521,23 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
                              https://www.kaggle.com/learn/pandas
                             
+**Competencia de Kaggle en progreso**  
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D45
+
+**Progreso de hoy**:  2 horas. Finalización pandas course en Kaggle!. Creación de r1-notas.md para llevar notas de lo que voy aprendiendo 
+
+**Conflictos**  Ninguno, fuera de la falta de tiempo por las fiestas
+
+**Reflexiones:** Tengo que buscar como manejarme mejor con el teclado en los jupyter notebooks. Pierdo mucha velocidad al no saberlo. Lo que empecé ayer me pareció muy bueno para hacer más lento y cimentar conceptos, pero lo separé de acá porque me pareció mejor para rastrear después
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+                         https://github.com/alanpirotta/ciencia-datos *hoy no*
+
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
+                                   
 **Competencia de Kaggle en progreso**  
 
 **Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
