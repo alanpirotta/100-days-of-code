@@ -541,3 +541,21 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Competencia de Kaggle en progreso**  
 
 **Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D46
+
+**Progreso de hoy**:  x horas. Comienzo del curso de visualización de datos en Kaggle con Seaborn (27%). Busqué como manejarme con el teclado dentro de los jupyter notebooks.
+
+**Conflictos**  ninguno
+
+**Reflexiones:** Fue una buena idea buscar los hotkeys! me parece que estoy haciendo los cursos de kaggle al revés, pero voy avanzando y me gusta el formato que tienen. No subí a github estos notebooks, son las respuestas sin ningún extra.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+                         https://github.com/alanpirotta/ciencia-datos *hoy no*
+
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
+                             https://www.kaggle.com/learn/data-visualization
+                                   
+**Competencia de Kaggle en progreso**  
+
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*

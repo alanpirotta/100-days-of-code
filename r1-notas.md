@@ -22,3 +22,19 @@ ej: df.rename_axis('nombre_columnas', axis='columns')
 - df.set_index(): setea los index usando una o más columnas del DF. Sirve para después juntar varios DF usando estas columnas como puntos en común.
 - df.join(): junta dos DF en uno. Las columnas deben tener distintos nombres ( o agregar sufijos)
 
+### R1D46
+
+*hotkeys jupyter notebook*
+* esc/enter: entrar y salir de modos
+* Y/M: convertir celda en code/markdown
+* A/B: insertar celda arriba/abajo
+* D D: borrar una celda
+* X/C/V: Cortar, copiar y pegar celdas seleccionadas
+
+*data visualization en kaggle con seaborn*
+Matplotlib(plt): Sirve para definir las características del gráfico (no el contenico?) 
+- plt.figure(figsize=(ancho,alto)): Define el tamaño del gráfico
+- plt.title("Título del gráfico")
+- plt.xlabel("etiqueta eje X")
+
+- sns.lineplot(data=DataFrame): gráfico de . Puedo definir varias columnas sólas en diferentes lineas, seleciconando DataFrama['columna'] (agregar atributo "label=")
