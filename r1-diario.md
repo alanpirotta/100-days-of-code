@@ -544,7 +544,7 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 
 ### R1D46
 
-**Progreso de hoy**:  x horas. Comienzo del curso de visualización de datos en Kaggle con Seaborn (27%). Busqué como manejarme con el teclado dentro de los jupyter notebooks.
+**Progreso de hoy**:  1,5 horas. Comienzo del curso de visualización de datos en Kaggle con Seaborn (27%). Busqué como manejarme con el teclado dentro de los jupyter notebooks.
 
 **Conflictos**  ninguno
 
