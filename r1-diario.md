@@ -546,7 +546,7 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 
 **Progreso de hoy**:  1,5 horas. Comienzo del curso de visualización de datos en Kaggle con Seaborn (27%). Busqué como manejarme con el teclado dentro de los jupyter notebooks.
 
-**Conflictos**  ninguno
+**Conflictos:**  ninguno
 
 **Reflexiones:** Fue una buena idea buscar los hotkeys! me parece que estoy haciendo los cursos de kaggle al revés, pero voy avanzando y me gusta el formato que tienen. No subí a github estos notebooks, son las respuestas sin ningún extra.
 
@@ -556,6 +556,30 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
                              https://www.kaggle.com/learn/data-visualization
                                    
-**Competencia de Kaggle en progreso**  
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
 
+### R1D47 y R1D48
+
+**Progreso de hoy**:  Cerca de 1 hora cada día. Seguimiento del curso de EDA con el celular.
+
+**Conflictos:** No me pude sentar en la PC, por falta de tiempo y un poco de desánimo
+
+**Reflexiones:** Fueron dos días complicados, me costó mucho ponerme a estudiar en los ratos libres, lo único que hizo que lo lograra, es el reto este y que el tema me gusta. Me empezó a pegar más fuerte el tema del deadline y el sentir que no se lo suficiente. No ayuda que no hice ningún proyecto grande de datos con python todavía.
+
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion
+
+### R1D49
+
+**Progreso de hoy**:  3 horas. Seguí el curso de data_visualization de kaggle, con registro de todo y búsqueda de datos extra sobre lo que resuelvo. Búsqueda de los excel y la base de datos de mi trabajo para empezar los proyectos propios.
+
+**Conflictos:**  Conflicto al levantar el dump de la base de datos, tuve que reinstalar todo postgresql y me tira un error pero creo que no afecta a los datos. 
+
+**Reflexiones:** Estoy avanzando lentamente en este curso, más de lo normal, pero a propósito, para fijar más cosas e investigar un poco más allá de lo que me piden resolver. Logré iniciar la preparación para mis proyectos cuando termine este curso de Kaggle. 
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+                         https://github.com/alanpirotta/ciencia-datos *hoy no*
+
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
+                             https://www.kaggle.com/learn/data-visualization
+                                   
 **Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
