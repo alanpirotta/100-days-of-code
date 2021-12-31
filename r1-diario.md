@@ -583,3 +583,20 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
                              https://www.kaggle.com/learn/data-visualization
                                    
 **Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D50
+
+**Progreso de hoy**:  3 horas. Finalicé el curso de data_visualization de kaggle, con registro de todo y búsqueda de datos y pruebas extra sobre lo que resuelvo. 
+
+**Conflictos:**  
+- Estuve un rato largo para poder hacer algo MUY simple, como obtener un dato de una columna y fila específica. No estoy seguro por qué me resultó tan dificil. Lo resolví de una forma muy rebuscada, y 2 minutos después me di cuenta que existía df.at[] y que con el loc era mucho más fácil de lo que estaba intentando.
+- Quise subir un csv a kaggle, pero me reconoce mal los datos y considera casi todo null... tengo que revisar bien por qué ocurre esto.
+
+**Reflexiones:** Averiguar sobre loc y iloc mejor, necesito comprenderlos bien. Mañana revisaré la subida del csv para ver que ocurre y poder empezar a experimentar con esos datos. Me está costando mucho ponerme en las fiestas, pero se sintió bien hacer este curso. Voy a seguir con los demás cursos, pero turnando proyecto propio a la vez.
+
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
+                                   
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
