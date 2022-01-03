@@ -600,3 +600,47 @@ Decidí hacer el examen del curso de python de codigoFacilito porque eran todos 
 **Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion  *hoy no*
                                    
 **Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D51
+
+**Progreso de hoy**:  
+1 horas. Seguimiento del curso de EDA. 
+
+**Conflictos:**  
+No estuve en casa, y arranqué muy tarde (12 de la noche)
+
+**Reflexiones:** No pude avanzar mucho, pero el curso de EDA ese será un muy buen lugar para volver cuando esté en mis proyectos.
+
+**Enlace a mi trabajo:** https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+
+**Certificación en proceso** https://codigofacilito.com/cursos/eda-visualizacion 
+                                   
+**Libro** Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D52
+
+**Progreso de hoy**:  
+3.5 horas. Inicio de proyecto propio de análisis de datos con datos del trabajo. Revisión de algunas cosas del curso de EDA para utilizarlas en el proyecto.
+Aprendí mucho sobre la sanitización de datos para un df.
+
+**Conflictos:**  
+El excel al guardar un CSV los separa con punto y coma en vez de coma. tuve que reemplazarlo para que pandas lo reconozca correctamente.
+
+**Reflexiones:** 
+Averiguar más sobre *librería from pathlib import Path*
+Estuve muchas horas para hacer cosas que en excel hago en 2 minutos. Pero aprendí mucho sobre formas de manuipular los datos y la info para mejorarla. Me servirá mucho más para cuando llegue a planillas que no podría modificar simplemente en el excel.
+Es un buen punto de partida.
+También tendría que averiguar un poco más sobre la configuración de los markdown, para poder hacer buenas notas en el notebooks.
+Tengo que averiguar bien que significa cuando pongo "add ." en git y me tira esto:
+*LF will be replaced by CRLF in ...* 
+*The file will have its original line endings in your working directory*
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion 
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
