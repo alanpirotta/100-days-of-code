@@ -644,3 +644,28 @@ https://codigofacilito.com/cursos/eda-visualizacion
                                    
 **Libro** 
 Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D53
+
+**Progreso de hoy**:  
+2,5 horas. Una hora de lectura  
+Saniticé la tabla desde el excel para eliminar los * y strings en las columnas de números (el * genera muchos conflictos). Creé una segunda versión del notebook, usando esa planilla.
+Busqué mucho sobre el objeto datetime y como manipular por fechas los dataframe (falta todavía un poco)
+
+
+**Conflictos:**  
+Terminé buscando sobre los objetos de fecha porque se me complicó mucho generar alguna forma automática de separar por años el df
+
+**Reflexiones:** 
+A leer un poco del libro este (es "viejo" pero sigue siendo bastante útil por lo que averigué), me surgió un poco más la duda de como dividir el tiempo de estudio entre análisis de datos, gráficos y ML. Los dos primeros los estudio al hacer el proyecto, con lo cual una vez cada tres días, me pondré a ver algo de ML para ir avanzando.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+Python for Data Analysis: Wes McKinney

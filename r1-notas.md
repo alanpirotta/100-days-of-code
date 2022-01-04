@@ -1,5 +1,12 @@
 **Comienzo este archivo en el día 44. Me pareció una buena forma de rastrear el proceso, tomar notas y poder encontrarlas después**
 
+### A averiguar
+*librería from pathlib import Path*
+Tengo que averiguar bien que significa cuando pongo "add ." en git y me tira esto:
+*LF will be replaced by CRLF in ...* 
+*The file will have its original line endings in your working directory*
+
+
 ### hotkeys jupyter notebook
 * esc/enter: entrar y salir de modos
 * Y/M: convertir celda en code/markdown
@@ -73,7 +80,6 @@ Matplotlib(plt): Sirve para definir las características del gráfico (no el con
 - sns.set_style("theme"): Cambia el estilo de los gráficos a uno de los 5 temas: (1)"darkgrid", (2)"whitegrid", (3)"dark", (4)"white", and (5)"ticks"
 
 ### R1D52
- 
 
 - pd.to_numeric(): sirve para convertir una series a int o float. Para convertir parte de un df, se puede usar appliy:
     - df[['column1', 'column2']].apply(pd.to_numeric, errors=, downcast=): el errors sirve para que los no convertibles los ignore o los convierte en NaN. downcast te devuelve el int o float más chico posible
@@ -85,4 +91,20 @@ Matplotlib(plt): Sirve para definir las características del gráfico (no el con
 - df[ df['columna'].isna() ]: Sirve para chequear todas las filas en las que no hay datos para esa columna
 - df[una series].str.replace('valorviejo', 'valornuevo'): Sirve para reemplazar una parte de string en una columna
 
+### R1D53
 
+Formas de separar un df por años, cuando la columna es una fecha completa
+- df_2017 = df['2017-01-01':'2017-12-31']: forma completamente manual, funciona pero se hace una línea por año
+- datos_2018 = datos['{}-01-01'.format('2018'):'{}-12-31'.format('2018')]: Funciona para hacer un ciclo
+- datos.index.date[0]: Devuelve datetime.date(año, mes, dia) de la primer fila. Es un tipo de dato "datetime.date"
+    Si agrego .year devuelve el año, pero de esa fila específica. Tendría que hacer un loop por todos los indices del objeto datetime
+a probar
+- def split_years(dt):
+    dt['year'] = dt['Date'].dt.year
+    return [dt[dt['year'] == y] for y in dt['year'].unique()]
+- import datetime as dt
+  dataframe1=dataframe[dataframe['Date'].dt.year == 2012]
+
+Ver un poco mejor
+
+- pd.set_option('display.max_rows', 10): Sirve para el display de un máximo de filas al poner "df"
