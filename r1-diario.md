@@ -669,3 +669,26 @@ https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
 **Libro** 
 Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
 Python for Data Analysis: Wes McKinney
+
+### R1D54
+
+**Progreso de hoy**:  
+1 hora. Lectura sobre ML, regresión lineal, ridge y knn (k-nearest-neighbor)
+
+**Conflictos:**  
+me está costando sentarme.
+
+**Reflexiones:** 
+Hoy tocó ML, y como siempre, me gustó mucho aprender sobre modelos, aunque crea que necesito fortalecer mejor mis conocimientos sobre manipulación de datos mejor antes de aprovecharlos al máximo.
+El estar de vacaciones pensé que me iba a hacer estudiar más, pero la verdad que estoy aprovechando para descansar y desestresarme lo más que pueda. Veremos como lidio cuando esté de viaje, mañana tengo que investigar mejor que cosas puedo hacer offline y cuales no (el alojamiento tiene wifi, pero creo que no es del mejor) 
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido 
+Python for Data Analysis: Wes McKinney *hoy no*
