@@ -692,3 +692,25 @@ https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
 **Libro** 
 Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido 
 Python for Data Analysis: Wes McKinney *hoy no*
+
+### R1D54
+
+**Progreso de hoy**:  
+1,5 hora. Organización de la información relevante para estudiar, en que estado estoy y como hacer los días de viaje.
+Avance con proyecto propio: Renombré todas las columnas, generé los DF por año. En proceso de generar el gráfico.
+
+**Conflictos:** 
+
+**Reflexiones:** 
+Como veía que los días de viaje iban a costar bastante, me pareció mejor organizarme previamente para tratar de aprovechar el tiempo lo máximo posible. Espero poder avanzar estos días.
+Para terminar el análisis actual del proyecto, falta reefinir X para el lineplot o probar con otro tipo de gráfico, porque necesito que compare por fechas absolutas sin el año (necesito superponerlas). También creo que vendría bien agrupar y crear un df con todos los datos estadísticos por año, para compararlos
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*

@@ -91,20 +91,26 @@ Matplotlib(plt): Sirve para definir las características del gráfico (no el con
 - df[ df['columna'].isna() ]: Sirve para chequear todas las filas en las que no hay datos para esa columna
 - df[una series].str.replace('valorviejo', 'valornuevo'): Sirve para reemplazar una parte de string en una columna
 
-### R1D53
+### R1D53 y 54
 
 Formas de separar un df por años, cuando la columna es una fecha completa
 - df_2017 = df['2017-01-01':'2017-12-31']: forma completamente manual, funciona pero se hace una línea por año
 - datos_2018 = datos['{}-01-01'.format('2018'):'{}-12-31'.format('2018')]: Funciona para hacer un ciclo
+- Lo siguiente devuelve una lista de dataframespor año:
+años=[2017,2018,2019,2020,2021]
+años_df=[]
+for año in años:
+    años_df.append(datos['{}-01-01'.format(año):'{}-12-31'.format(año)])
+
 - datos.index.date[0]: Devuelve datetime.date(año, mes, dia) de la primer fila. Es un tipo de dato "datetime.date"
     Si agrego .year devuelve el año, pero de esa fila específica. Tendría que hacer un loop por todos los indices del objeto datetime
-a probar
+
+Función que encontré que podría probar un poco mejor (la probé rápido y no me funcionó)
 - def split_years(dt):
     dt['year'] = dt['Date'].dt.year
     return [dt[dt['year'] == y] for y in dt['year'].unique()]
 - import datetime as dt
   dataframe1=dataframe[dataframe['Date'].dt.year == 2012]
 
-Ver un poco mejor
 
 - pd.set_option('display.max_rows', 10): Sirve para el display de un máximo de filas al poner "df"
