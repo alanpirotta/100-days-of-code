@@ -707,7 +707,29 @@ Para terminar el análisis actual del proyecto, falta reefinir X para el lineplo
 
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggleAnalysis *hoy no*
-https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D55
+
+**Progreso de hoy**:  
+2 horas. Avance con proyecto propio: Regeneré los df por año de una mejor forma, creé columna mas_dia para poder tener los ejes x correctos, probé formas de crear subplots.
+
+**Conflictos:** 
+Cada paso fue toda una investigación gigante, porque me trabo. Me cuesta un poco más encontrar la info correcta en la web. 
+
+**Reflexiones:** 
+Hoy volví temprano y pude ponerme un rato más largo. Me está costando cada paso bastante, pero eso demuestra que era necesario que hiciera un proyecto de análisis de datos desde cero. Cuando termine este proyecto habré aprendido muchísimo.
+Me falta para la siguiente vez, ponerme un poco más con los subplots y el group_by. Para poder graficar por meses, y para hacer calculos estadísticos simples por meses/años.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia 
 
 **Certificación en proceso** 
 https://codigofacilito.com/cursos/eda-visualizacion *hoy no*

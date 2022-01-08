@@ -54,7 +54,7 @@ Matplotlib(plt): Sirve para definir las características del gráfico (no el con
 - DF.max().idxmax(): Devuelve el label de la columna con el valor más alto de un DF
 - DF[DF.max().idxmax()].idxmax(): devuelve el index del valor más alto de un DF
 
-- plt.xticks(rotation=90): Sirve para rotar 90 grados las label del eje X. busqué si podía hacerlo con plt.xlabel pero me parece que no existe
+- plt.xticks(rotation=90): Sirve para rotar 90 grados las label del eje X y dejarlas en vertical (45 también queda bien) . busqué si podía hacerlo con plt.xlabel pero me parece que no existe
 
 
 - sns.barplot(x= ,y= ): Gráfico de barras
@@ -114,3 +114,18 @@ Función que encontré que podría probar un poco mejor (la probé rápido y no 
 
 
 - pd.set_option('display.max_rows', 10): Sirve para el display de un máximo de filas al poner "df"
+
+### R1D55
+
+- df = df.reset_index(): Resetea el index y lo convierte en una columna.
+- df = df.set_index('feature'): Poner una columna como index. Sirve para volver a poner luego de resetear
+- df['mes_año'] = df['Fecha'].dt.to_period('M'): Extrae el mes y año y los crea en una nueva columna. si se pone 'Y' extrae solo el año.
+- df['año'] = pd.DatetimeIndex(df.index).year: Crea una columna con sólo el año de la fecha que está como index
+- Error "'DatetimeIndex' object has no attribute 'dt'" lo tira cuando se quiere usar el index para el to_period. Tiene que ser una serie si o si (feature del df)
+- df['mes_dia']= df['Fecha'].dt.strftime('%m-%d'): Sirve para extraer como un string el mes y día solamente de una fecha. NO se puede considerar como fecha sin el año.
+
+- Para graficar varios graficos con una celda, se puede poner el código del primer gráfico, después un plt.show(), después el siguiente código, otro plt.show()... etc
+- fig, axs = plt.subplots(nfilas, n°col, figsize=(16,10)): Para crear varios gráfico en la misma celda, sin separación. **no logré averiguar bien como rotar 45° las label del eje x**
+
+#### Falta averiguar la próxima vez, como encontrar índices duplicados, el DF del 2020 me tira error por eso. Con años_df[2020].index.is_unique lo confirmo, y dice False
+
