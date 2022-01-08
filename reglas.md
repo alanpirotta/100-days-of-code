@@ -6,19 +6,20 @@
 
 #### Fecha de inicio
 
-25 de junio de 2016. [ponga su nombre aquí]
+07 de Noviembre de 2021. [Alan Pirotta]
 
 ## Reglas adicionales
 
-1.  Voy a tuitear sobre mi progreso todos los días -> usando el hashtag #100DaysOfCode
+1.  Voy a tuitear sobre mi progreso todos los días que realice algo relacioado al estudio-> usando el hashtag #100DaysOfCode
 
 2.  Si programo en el trabajo, ese tiempo no contará para el reto.
 
-3.  Publicaré mi código a GitHub todos los días para que todos puedan ver mi progreso.
+3.  Publicaré mi código a GitHub todos los días para que todos puedan ver mi progreso (en caso de poder hacerlo público).
 
 4.  Actualizaré el [diario](diario.md) con el progreso del día y proporcionaré un enlace para que otras personas puedan ver mi progreso.
 
 5.  Trabajaré en proyectos verdaderos con la intención de enfrentarme a desafíos verdaderos. El tiempo dedicado a hacer tutoriales, cursos en línea, y otros recursos similares NO contará con respecto a este reto. (Si acabas de empezar a aprender a programar, lee [Preguntas frecuentes](preguntas_frecuentes.md)
+  
 
 ## Ideas para hacer este reto más efectivo
 
