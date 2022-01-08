@@ -2,6 +2,8 @@
 
 El diario de mi reto #100DaysOfCode. Empecé el [7 de Noviembre, Domingo, 2021]
 
+**Nota:** Adaptación propia sobre la regla 5 durante esta ronda. Como estoy aprendiendo, buscando mi camino y muchos días se me complica sentarme ya que no estoy en mi casa, contaré el tiempo de cursos, lectura e investigación también (para monitorear eso también), aunque intentaré cumplir lo máximo posible el sentarme a codear.
+
 ## Registro
 
 ### R1D1
@@ -719,6 +721,7 @@ Introduction to machine learning with python: a guide for data scientists - Andr
 
 **Progreso de hoy**:  
 2 horas. Avance con proyecto propio: Regeneré los df por año de una mejor forma, creé columna mas_dia para poder tener los ejes x correctos, probé formas de crear subplots.
+Me di cuenta que nunca había cambiado la fecha en el archivo de reglas.
 
 **Conflictos:** 
 Cada paso fue toda una investigación gigante, porque me trabo. Me cuesta un poco más encontrar la info correcta en la web. 
@@ -727,6 +730,7 @@ Quedó pendiente que uno de los df me tiró que tiene índices duplicados, y no 
 **Reflexiones:** 
 Hoy volví temprano y pude ponerme un rato más largo. Me está costando cada paso bastante, pero eso demuestra que era necesario que hiciera un proyecto de análisis de datos desde cero. Cuando termine este proyecto habré aprendido muchísimo.
 Me falta para la siguiente vez, ponerme un poco más con los subplots y el group_by. Para poder graficar por meses, y para hacer calculos estadísticos simples por meses/años.
+Releyendo las reglas, me di cuenta que nunca había puesto al inicio del diario como adaptaba la regla 5 a mis posibilidades actuales, por lo que lo escribí al inicio de este archivo. También me hizo reflexionar que cada tanto debería releerlas, para centrarme de nuevo y no perderme como me pasó hace unas semanas.
 
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggleAnalysis *hoy no*
