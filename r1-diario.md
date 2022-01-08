@@ -722,6 +722,7 @@ Introduction to machine learning with python: a guide for data scientists - Andr
 
 **Conflictos:** 
 Cada paso fue toda una investigación gigante, porque me trabo. Me cuesta un poco más encontrar la info correcta en la web. 
+Quedó pendiente que uno de los df me tiró que tiene índices duplicados, y no pude encontrarlo de forma auomática (quiero aprender a hacerlo antes que borrar el dato manualmente)
 
 **Reflexiones:** 
 Hoy volví temprano y pude ponerme un rato más largo. Me está costando cada paso bastante, pero eso demuestra que era necesario que hiciera un proyecto de análisis de datos desde cero. Cuando termine este proyecto habré aprendido muchísimo.
