@@ -753,6 +753,7 @@ Sólo la lentitud de avance en el proyecto.
 **Reflexiones:** 
 No volví tan tarde por lo que me puse lo máximo que pude. Los siguientes días vienen excursiones largas que me costará más. Se siente muy bien hacer el proyecto y cada avance que consigo, aunque me frustra un poco la lentitud de avance. Sin embargo, creo que en un proyecto "real" y no de estudio, haría muchas menos cosas que en este. Muchas veces utilizo mucho tiempo en vez alternativas de código, mejorar con un ciclo, etc.
 Para la siguiente vez, tengo que concentrarme en el groupby y poder utilizar esos datos. Para poder graficar por meses, y para hacer calculos estadísticos simples por meses/años. Punto a considerar, que columnas tienen sentido sumar, cuales contar y cuales realizar promedio/mediana.
+*Recordé que estaban los cursos de datos den freecodecamp!*: Cuando vuelva seguramente me ponga con esos cursos 
 
 
 **Enlace a mi trabajo:** 
