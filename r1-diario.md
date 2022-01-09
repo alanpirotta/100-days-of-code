@@ -729,8 +729,31 @@ Quedó pendiente que uno de los df me tiró que tiene índices duplicados, y no 
 
 **Reflexiones:** 
 Hoy volví temprano y pude ponerme un rato más largo. Me está costando cada paso bastante, pero eso demuestra que era necesario que hiciera un proyecto de análisis de datos desde cero. Cuando termine este proyecto habré aprendido muchísimo.
-Me falta para la siguiente vez, ponerme un poco más con los subplots y el group_by. Para poder graficar por meses, y para hacer calculos estadísticos simples por meses/años.
+Me falta para la siguiente vez, ponerme un poco más con los subplots y el groupby. Para poder graficar por meses, y para hacer calculos estadísticos simples por meses/años.
 Releyendo las reglas, me di cuenta que nunca había puesto al inicio del diario como adaptaba la regla 5 a mis posibilidades actuales, por lo que lo escribí al inicio de este archivo. También me hizo reflexionar que cada tanto debería releerlas, para centrarme de nuevo y no perderme como me pasó hace unas semanas.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia 
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D56
+
+**Progreso de hoy**:  
+1,5 hora. Avance con proyecto propio: Logré descubrir, testear y eliminar el índice duplicado. Grafiqué correctamente los subplots. Comencé a explorar el groupby para separar por mes y realizar análisis utilizando eso.
+
+**Conflictos:** 
+Sólo la lentitud de avance en el proyecto.
+
+**Reflexiones:** 
+No volví tan tarde por lo que me puse lo máximo que pude. Los siguientes días vienen excursiones largas que me costará más. Se siente muy bien hacer el proyecto y cada avance que consigo, aunque me frustra un poco la lentitud de avance. Sin embargo, creo que en un proyecto "real" y no de estudio, haría muchas menos cosas que en este. Muchas veces utilizo mucho tiempo en vez alternativas de código, mejorar con un ciclo, etc.
+Para la siguiente vez, tengo que concentrarme en el groupby y poder utilizar esos datos. Para poder graficar por meses, y para hacer calculos estadísticos simples por meses/años. Punto a considerar, que columnas tienen sentido sumar, cuales contar y cuales realizar promedio/mediana.
+
 
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggleAnalysis *hoy no*

@@ -6,6 +6,8 @@ Tengo que averiguar bien que significa cuando pongo "add ." en git y me tira est
 *LF will be replaced by CRLF in ...* 
 *The file will have its original line endings in your working directory*
 
+### Pendientes
+* Averigar como poner las labels del eje x a 45° en subplots de seaborn
 
 ### hotkeys jupyter notebook
 * esc/enter: entrar y salir de modos
@@ -105,13 +107,6 @@ for año in años:
 - datos.index.date[0]: Devuelve datetime.date(año, mes, dia) de la primer fila. Es un tipo de dato "datetime.date"
     Si agrego .year devuelve el año, pero de esa fila específica. Tendría que hacer un loop por todos los indices del objeto datetime
 
-Función que encontré que podría probar un poco mejor (la probé rápido y no me funcionó)
-- def split_years(dt):
-    dt['year'] = dt['Date'].dt.year
-    return [dt[dt['year'] == y] for y in dt['year'].unique()]
-- import datetime as dt
-  dataframe1=dataframe[dataframe['Date'].dt.year == 2012]
-
 
 - pd.set_option('display.max_rows', 10): Sirve para el display de un máximo de filas al poner "df"
 
@@ -128,4 +123,16 @@ Función que encontré que podría probar un poco mejor (la probé rápido y no 
 - fig, axs = plt.subplots(nfilas, n°col, figsize=(16,10)): Para crear varios gráfico en la misma celda, sin separación. **no logré averiguar bien como rotar 45° las label del eje x**
 
 #### Falta averiguar la próxima vez, como encontrar índices duplicados, el DF del 2020 me tira error por eso. Con años_df[2020].index.is_unique lo confirmo, y dice False
+
+### R1D56
+
+Chequeo de duplicados en index. (aplica para columnas que no sean índice)
+- df.index.duplicated(): Devuelve un array con True para la segunda aparición de un valor. Si se pone keep='last', el que mantiene (aparece como False) es la última aparición. Si se pone keep=False devuelve con True en todos los valores duplicados. 
+- df = df.drop_duplicates(): Descarta todos los valores duplicados.
+- ((array1 == array2) == False).sum(): Sirve para chequear que todas las columnas de la fila duplicada (cada array) sean iguales o no. Se puede también comparar directo con un loc, pero si el repetido es el índice, antes se debe resetear el índice.
+
+- variable = [i**2 for i in range(10)]: ejemplo de forma de escribir un loop en una línea (list comprehension)
+- df['año_mes'] = df[columna con fecha].dt.to_period('M'): Extrae sólo el año y día. Si la fecha es en el índice, primero resetear
+
+Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), para obtener todos los datos de promedios
 
