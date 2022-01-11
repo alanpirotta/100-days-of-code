@@ -136,3 +136,25 @@ Chequeo de duplicados en index. (aplica para columnas que no sean índice)
 
 Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), para obtener todos los datos de promedios
 
+### R1D57
+
+- df_nuevo = df.reset_index().set_index(['columna_1', 'columna_2']): indexar dos columnas del dataframe (o más) como multiIndex.
+- df_nuevo.loc[(dato_primer_index , dato_segundo_index)]: Esto sirve para acceder a un dato específico (o conjunto de datos), de un df con multiIndex.
+- Genera un df nuevo con datosespecíficos de cada columna luego de un groupby
+  gb = df.groupby(['col1', 'col2'])
+  counts = gb.size().to_frame(name='counts')
+  (counts
+   .join(gb.agg({'col3': 'mean'}).rename(columns={'col3': 'col3_mean'}))
+   .join(gb.agg({'col4': 'median'}).rename(columns={'col4': 'col4_median'}))
+   .join(gb.agg({'col4': 'min'}).rename(columns={'col4': 'col4_min'}))
+   .reset_index()
+  )
+- df.groupby(['A', 'B'])['C'].describe(): Alternativa y te muestra las de una columna sola
+- Para agregar una columna de suma de datos en un multiIndex de columnas (el condicional es para eliminar las columnas que no sean numéricas, que NO se quieran agregar):
+    for columna in por_mes.columns:
+        if columna == 'Fecha':
+            continue
+        agrupado_por_mes[columna,'sum'] = por_mes.groupby(['año','mes'])[columna].sum()
+- d.columns = d.columns.map('_'.join): Para unir si tiene multiIndex en columnas, te une en un sólo índice
+- 
+  

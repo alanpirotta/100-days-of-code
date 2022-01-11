@@ -765,3 +765,29 @@ https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
                                    
 **Libro** 
 Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D57
+
+**Progreso de hoy**:  
+1.5 horas.
+Continúo con el proyecto del tablero de comandos de LAIA. 
+Hoy pude agrupar correctamente y obtener los datos estadísticos básicos de cada columnas separados por año y mes con multiIndex. 
+
+**Conflictos:** 
+*Me olvidé como funciona bien el método "zip" de python*
+
+**Reflexiones:** 
+Van un par de días que no pude tocar nada (llegué tarde de excursiones y muerto de cansancio), donde sólo leí un poco el libreo sobre ML. No me "castigué" por eso, pero hoy que tenía un rato me puse a seguir con este proyecto.
+Sigue sintiéndose que avanzo lento, pero el ir anotando todo ya fue muy útil, y creo que voy agarrando velocidad cuando tengo que repetir cosas.
+La siguiente vez ya me pondré a graficar con los datos obtenidos, pero antes tendría que chequear si en los datos está considerando o no los NaN (supuse que no, pero no lo chequee).
+Una vez termine eso, ordenaré en un nuevo notebook sólo la información relevante para generar el informe, y averiguar como se guarda y presenta.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia 
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
