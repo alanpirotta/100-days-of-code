@@ -791,3 +791,28 @@ https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
                                    
 **Libro** 
 Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D58
+
+**Progreso de hoy**:  
+1 hora.
+Taller de crear paquetes con python en códigoFacilito (llegué tarde, sólo vi la última sección)
+Continúo con el proyecto del tablero de comandos de LAIA. 
+Hoy seguío practicando formas de acceder a los datos con multiIndex y chequeé que los NaN no afectaran ningún valor calculado. 
+
+**Conflictos:** 
+Ninguno de importancia
+
+**Reflexiones:** 
+En codigofacilito hay un curso de escritura. Lo haré a corto plazo porque me parece muy útil y puedo utilizarlo para escribir un mejor notebook final.
+La siguiente vez finalmente me pondré a graficar con los datos obtenidos para luego ordenar todo, y prepararlo para una presentación.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia 
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*

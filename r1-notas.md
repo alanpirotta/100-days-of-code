@@ -156,5 +156,11 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
             continue
         agrupado_por_mes[columna,'sum'] = por_mes.groupby(['año','mes'])[columna].sum()
 - d.columns = d.columns.map('_'.join): Para unir si tiene multiIndex en columnas, te une en un sólo índice
-- 
+
+
+### R1D58
+
+- df.loc[(indice_1_nivel,indice_2_nivel),'columna'] = value : Esto sirve para cambiar un valor. (puede ser que cambie varios si comparten esos índices)
+- df.groupby('columna1').describe().loc[indice,'columna2'] : Agrupa, muestra los datos descriptivos de una parte específica.
+- df.groupby('columna1').agg(['count', 'sum', 'mean', 'median']).loc[índice,'columna2']: Otra forma de obtener lo mismo, pero con el método agg donde puedo seleccionar qué quiero poner, y poner otras cosas (como la suma)
   
