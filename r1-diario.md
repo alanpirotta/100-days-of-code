@@ -798,7 +798,7 @@ Introduction to machine learning with python: a guide for data scientists - Andr
 1 hora.
 Taller de crear paquetes con python en códigoFacilito (llegué tarde, sólo vi la última sección)
 Continúo con el proyecto del tablero de comandos de LAIA. 
-Hoy seguío practicando formas de acceder a los datos con multiIndex y chequeé que los NaN no afectaran ningún valor calculado. 
+Hoy seguí practicando formas de acceder a los datos con multiIndex y chequeé que los NaN no afectaran ningún valor calculado. 
 
 **Conflictos:** 
 Ninguno de importancia
@@ -806,6 +806,34 @@ Ninguno de importancia
 **Reflexiones:** 
 En codigofacilito hay un curso de escritura. Lo haré a corto plazo porque me parece muy útil y puedo utilizarlo para escribir un mejor notebook final.
 La siguiente vez finalmente me pondré a graficar con los datos obtenidos para luego ordenar todo, y prepararlo para una presentación.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis *hoy no*
+https://github.com/alanpirotta/analisis_datos_laia 
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+                                   
+**Libro** 
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D59
+
+**Progreso de hoy**:  
+4 horas.
+Continúo con el proyecto del tablero de comandos de LAIA. 
+Graficación de los datos limpios, comienzo de armar el informe final, eliminando todas las celdas que no corresponden y mejorando los nombres de las variables/df.
+
+**Conflictos:** 
+- Al graficar con gráfico de barras recorriendo un array de DFs, me grafica todos en la misma barra, con cada barra sobre la anterior.
+  Lo solucioné generando un nuevo df reseteando los index, y graficando como tercer parámetro con el hue= el año. (creo que podría haberlo hecho sin resetear, pero el acceso a los datos es bastante complejo) 
+- Quise hacer un regplot para ver la tendencia a través de los años, pero no me acepta al ser el eje x fechas. Intenté varias cosas pero no pude solucionarlo, seguí avanzando mientras tanto, luego volveré a ese gráfico.
+
+**Reflexiones:** 
+Realmente me costó arrancar hoy (pasaron dos días desde que me senté, por terminar el viaje de vacaciones)  porque tuve una crisis de como seguir, en qué concentrarme ya que empezaré a buscar trabajo pronto. Hacer este proyecto me está enseñando mucho, pero quizás debería concentrarme más en sql o tableau/power bi. 
+Decidí que voy a terminar este igual, y luego averiguaré un poco más sobre tableau y power bi antes de decidir por cual seguir.
+Mañana, debo seguir pasando al informe final las celdas correctas, y luego hacer un análisis de qué gráficos serían más útiles (la lógica está, solo debo elegir las columnas y si es por suma, promedio o desvío). 
+También tengo que averiguar como modificar los ejes x en subplots (rotar, o reducir la cantidad de nombres para que se vean correctamente)
 
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggleAnalysis *hoy no*

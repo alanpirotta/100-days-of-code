@@ -89,7 +89,7 @@ Matplotlib(plt): Sirve para definir las características del gráfico (no el con
 - df.rename(columns={'nombreviejo': 'nombrenuevo'}): Sirve para cambiar nombres de columnas a otros
 - df[['columna1', 'columna2']]= df['columna a dividir'].str.split('caracter que divide', expand=True): Para separar una columna en más de una, según un caracter. el expand=True es para que directamente lo divida en diferentes columnas.
 - df.drop('columna/fila', inplace=, axis=): Para eliminar una columna/fila. inplace=True sobreescribe el archivo, es preferible guardarlo de nuevo. 
-- df.info(): te muestra varios datos, sirve para ver la cantidad de valores NaN de cada columna
+- df.info(): te muestra varios datos, sirve para ver la cantidad de valores NaN de cada columna. Alternativa: df.isna().sum()
 - df[ df['columna'].isna() ]: Sirve para chequear todas las filas en las que no hay datos para esa columna
 - df[una series].str.replace('valorviejo', 'valornuevo'): Sirve para reemplazar una parte de string en una columna
 
@@ -163,4 +163,16 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
 - df.loc[(indice_1_nivel,indice_2_nivel),'columna'] = value : Esto sirve para cambiar un valor. (puede ser que cambie varios si comparten esos índices)
 - df.groupby('columna1').describe().loc[indice,'columna2'] : Agrupa, muestra los datos descriptivos de una parte específica.
 - df.groupby('columna1').agg(['count', 'sum', 'mean', 'median']).loc[índice,'columna2']: Otra forma de obtener lo mismo, pero con el método agg donde puedo seleccionar qué quiero poner, y poner otras cosas (como la suma)
+
+
   
+### R1D59
+
+- https://www.colourlovers.com/palettes/ :  Esta página sirve para buscar paletas de colores (útiles para los gráficos)
+- df.index.get_level_values(nivel de indice(0,1,2...)).unique(): Para extraer los valoresúnicos de un índice específico. Forma extraña, hay más fáciles.
+- df.loc[(indice1, )].index: forma de extraer los valores del segundo índice, de un sólo valor del primer índice
+- df.loc[(índice1, )]['indice_col1']['indice_col2']: Forma de acceder a una columna específica cuando se tiene multiIndex en filas Y columnas. Se puede poner también como ['indice_col1', 'indice_col2']
+- plt.legend(fontsize= 'large'): tamaño de la letra en la leyenda
+- df.columns = ['_'.join(col).strip('_') for col in df.columns.values]: Sirve para unir los nombres de las columnas, con un guión bajo en el medio y eliminandolo al final si no tiene segundo Indice
+
+
