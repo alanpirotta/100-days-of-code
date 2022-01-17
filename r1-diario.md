@@ -772,6 +772,7 @@ Introduction to machine learning with python: a guide for data scientists - Andr
 1.5 horas.
 Continúo con el proyecto del tablero de comandos de LAIA. 
 Hoy pude agrupar correctamente y obtener los datos estadísticos básicos de cada columnas separados por año y mes con multiIndex. 
+Finalización curso de EDA en codigoFacilito
 
 **Conflictos:** 
 *Me olvidé como funciona bien el método "zip" de python*
@@ -787,7 +788,7 @@ https://github.com/alanpirotta/kaggleAnalysis *hoy no*
 https://github.com/alanpirotta/analisis_datos_laia 
 
 **Certificación en proceso** 
-https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
+https://codigofacilito.com/cursos/eda-visualizacion
                                    
 **Libro** 
 Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
@@ -812,7 +813,6 @@ https://github.com/alanpirotta/kaggleAnalysis *hoy no*
 https://github.com/alanpirotta/analisis_datos_laia 
 
 **Certificación en proceso** 
-https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
                                    
 **Libro** 
 Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
@@ -823,6 +823,7 @@ Introduction to machine learning with python: a guide for data scientists - Andr
 4 horas.
 Continúo con el proyecto del tablero de comandos de LAIA. 
 Graficación de los datos limpios, comienzo de armar el informe final, eliminando todas las celdas que no corresponden y mejorando los nombres de las variables/df.
+
 
 **Conflictos:** 
 - Al graficar con gráfico de barras recorriendo un array de DFs, me grafica todos en la misma barra, con cada barra sobre la anterior.
@@ -840,7 +841,26 @@ https://github.com/alanpirotta/kaggleAnalysis *hoy no*
 https://github.com/alanpirotta/analisis_datos_laia 
 
 **Certificación en proceso** 
-https://codigofacilito.com/cursos/eda-visualizacion *hoy no*
                                    
-**Libro** 
-Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido *hoy no*
+
+### R1D60
+
+**Progreso de hoy**:  
+5.5 horas.
+Certificación de data analysisi en freeCodeCamp. Vi todas los videos, resolví todas las preguntas y realicé el primer proyecto completo.
+
+**Conflictos:** 
+Ninguno, fue un día completamente productivo y sin ninguna traba.
+
+**Reflexiones:** 
+Luego de la sesión de ayer me quedaron ganas pero de hacer algo diferente al pryecto, y para seguir un poco con la estructuración que necesitaba, arranqué el curso de freeCodeCamp. Me sirvió mucho para repasar los temas y reubicar la cabeza en algo más "simple" que los datos del proyecto de LAIA.
+Estos días que vienen voy a tener que irme mudando de casa, con lo cual se me va a complicar un poco al no tener mi PC, iré viendo como hago.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis 
+https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/data-analysis-with-python/
+                                   
+

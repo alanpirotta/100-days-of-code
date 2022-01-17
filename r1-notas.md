@@ -17,6 +17,14 @@ Tengo que averiguar bien que significa cuando pongo "add ." en git y me tira est
 * X/C/V: Cortar, copiar y pegar celdas seleccionadas
 * ctrl + /: Comentar una línea
 
+### Orden útil de análisis de datos:
+- Read_csv o equivalente con todos los datos para tener un buen df. graficos simples, describe e info para ver como se comportan los datos
+- Buscar y rellenar/vaciar valores vacíos. Se pueden rellenar con 0, mean, median, ffill o bfill. También pueden pedirse si es muy importante, o averiguar por qué ocurrió si es un conjunto grande de datos. 
+- Buscar errores en valores: valores fuera de rango, duplicados. También usar métodos de str, dt y cat segun tipo de columna.
+- Graficacion de datos más complejos con los datos limpios.
+- Conclusiones.
+- Estética del informe.
+
 ### R1D44
 *pandas en kaggle*
 - DataFrame.apply: sirve para modificar todos los valores en u n DF. el "axis" es para definir si lo hace en cada columna o en cada fila.
@@ -175,4 +183,10 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
 - plt.legend(fontsize= 'large'): tamaño de la letra en la leyenda
 - df.columns = ['_'.join(col).strip('_') for col in df.columns.values]: Sirve para unir los nombres de las columnas, con un guión bajo en el medio y eliminandolo al final si no tiene segundo Indice
 
+### R1D60
 
+- Df.fillna(method='ffill') o bfill: para que conplete los NaN con el valor de la fila anterior.
+- read_csv(data,
+           dtype='', : Se puede definir los tipos de datos directamente, ingresando como un diccionario con las colmnas como keys.
+           skip_blank_lines=True : Eliminar las filas que no tienen datos (generalmente al inicio o al final)
+- array.tolist(): Convierte un array a una lista.
