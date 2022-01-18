@@ -190,3 +190,13 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
            dtype='', : Se puede definir los tipos de datos directamente, ingresando como un diccionario con las colmnas como keys.
            skip_blank_lines=True : Eliminar las filas que no tienen datos (generalmente al inicio o al final)
 - array.tolist(): Convierte un array a una lista.
+
+### R1D61
+
+- df.drop(df[<some boolean condition>].index): Eliminar filas según una condición o valor. La condición puede ser un df filtrado
+- Formas de medir la cantidad de filas:
+    - df.count()
+    - df.shape[0]
+    - len (df)
+
+    

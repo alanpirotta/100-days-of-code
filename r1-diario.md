@@ -864,3 +864,26 @@ https://github.com/alanpirotta/analisis_datos_laia *hoy no*
 https://www.freecodecamp.org/learn/data-analysis-with-python/
                                    
 
+### R1D61
+
+**Progreso de hoy**:  
+2.5 horas.
+Certificación de data analysisi en freeCodeCamp. Realicé el segundo proyecto en un 90%.
+Investigación sobre data visualization, en youtube y curso de codigofacilito.
+
+**Conflictos:** 
+Tuve que arrancar muy tarde a codear (cerca de la 1 de la mañana)
+Tengo 6 errores pendientes del proyecto de freecodecamp. 4 son de cantidad de decimales (reducir el resultado a un decimal), y los otros dos uno arrastra al otro.
+
+**Reflexiones:** 
+El proyecto de LAIA le voy a dar un descanso, porque los gráficos bas que se necesitaban más urgente ya se hicieron en excel. Luego lo retomare para dar un poco más de profundidad y sacar conclusiones un poco más complejas.
+Me gustó tableau y altair, aunque no programé nada en ninguno todavía. 
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis 
+https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/data-analysis-with-python/
+https://codigofacilito.com/cursos/visualizacion-altair
+
