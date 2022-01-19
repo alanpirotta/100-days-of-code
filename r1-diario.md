@@ -868,7 +868,7 @@ https://www.freecodecamp.org/learn/data-analysis-with-python/
 
 **Progreso de hoy**:  
 2.5 horas.
-Certificación de data analysisi en freeCodeCamp. Realicé el segundo proyecto en un 90%.
+Certificación de data analysis en freeCodeCamp. Realicé el segundo proyecto en un 90%.
 Investigación sobre data visualization, en youtube y curso de codigofacilito.
 
 **Conflictos:** 
@@ -878,6 +878,27 @@ Tengo 6 errores pendientes del proyecto de freecodecamp. 4 son de cantidad de de
 **Reflexiones:** 
 El proyecto de LAIA le voy a dar un descanso, porque los gráficos bas que se necesitaban más urgente ya se hicieron en excel. Luego lo retomare para dar un poco más de profundidad y sacar conclusiones un poco más complejas.
 Me gustó tableau y altair, aunque no programé nada en ninguno todavía. 
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis 
+https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/data-analysis-with-python/
+https://codigofacilito.com/cursos/visualizacion-altair
+
+### R1D62
+
+**Progreso de hoy**:  
+3 horas.
+Certificación de data analysis en freeCodeCamp. finalicé el segundo proyecto y 50% del tercero.
+Investigación sobre el curso de data science en digital house.
+
+**Conflictos:** 
+Estuve MUCHO tiempo con el catplot, por no leer la documentación y asumir que era igual que el barplot o similares. Todas las cosas que me fallaban, eran atributos del mismo gráfico que podía definir. (Dato importante, el catplot se crea a nivel figura, no funciona con plt.subplots)
+
+**Reflexiones:** 
+Me gusta mucho hacer esta certificación, y me incentivó a buscar el curso de digital house porque el aprendizaje estructurado creo que va a ser un buen contrapeso a toda la experiencia informal/por necesidad que tengo, y por más que avancé bastante sólo, me parece que va a ayudar mucho.
 
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggleAnalysis 
