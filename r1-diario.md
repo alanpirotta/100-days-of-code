@@ -857,8 +857,7 @@ Luego de la sesión de ayer me quedaron ganas pero de hacer algo diferente al pr
 Estos días que vienen voy a tener que irme mudando de casa, con lo cual se me va a complicar un poco al no tener mi PC, iré viendo como hago.
 
 **Enlace a mi trabajo:** 
-https://github.com/alanpirotta/kaggleAnalysis 
-https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+https://github.com/alanpirotta/freecodecamp_certif 
 
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/data-analysis-with-python/
@@ -880,8 +879,7 @@ El proyecto de LAIA le voy a dar un descanso, porque los gráficos bas que se ne
 Me gustó tableau y altair, aunque no programé nada en ninguno todavía. 
 
 **Enlace a mi trabajo:** 
-https://github.com/alanpirotta/kaggleAnalysis 
-https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+https://github.com/alanpirotta/freecodecamp_certif 
 
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/data-analysis-with-python/
@@ -901,10 +899,40 @@ Estuve MUCHO tiempo con el catplot, por no leer la documentación y asumir que e
 Me gusta mucho hacer esta certificación, y me incentivó a buscar el curso de digital house porque el aprendizaje estructurado creo que va a ser un buen contrapeso a toda la experiencia informal/por necesidad que tengo, y por más que avancé bastante sólo, me parece que va a ayudar mucho.
 
 **Enlace a mi trabajo:** 
-https://github.com/alanpirotta/kaggleAnalysis 
-https://github.com/alanpirotta/analisis_datos_laia *hoy no*
+https://github.com/alanpirotta/freecodecamp_certif 
 
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/data-analysis-with-python/
 https://codigofacilito.com/cursos/visualizacion-altair
 
+### R1D63
+
+**Progreso de hoy**:  
+2 horas.
+Examen de ingreso al curso de data science de digital house.
+
+**Conflictos:** 
+No tuve acceso a mi pc, pero pude hacerlo desde la de mi esposa
+
+**Reflexiones:** 
+Me emociona empezar un curso así de grande, y haber aprobado el ingreso sin inconvenientes.
+
+
+### R1D64
+
+**Progreso de hoy**:  
+2 horas.
+Certificación de data analysis en freeCodeCamp. 50% a 95% del tercer ej.
+
+**Conflictos:** 
+Estuve mucho con el heatmap usando los atributos para que sea igual el gráfico, pero depsués me tiró error de valores. No pude encontrar a simple vista por qué falla, tendré que reveer lo anterior durante la limpieza de datos.
+
+**Reflexiones:** 
+No muchas, me gusta hacer estos ejercicios, y sigo emocionado por empezar el curso (aunque es en marzo jaja). Arranqué muy tarde hoy, a la 1 de la mañana de nuevo, tengo que organizarme un poco mejor para tratar de empezar antes, pero quiero también hacer otras cosas que trabajo y estudio como ver gente, que me di cuenta que me estaba aislando los últimos meses.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/freecodecamp_certif 
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/data-analysis-with-python/
+https://codigofacilito.com/cursos/visualizacion-altair

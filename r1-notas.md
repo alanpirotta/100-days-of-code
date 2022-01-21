@@ -208,6 +208,17 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
 - pd.melt(data, id_vars= ['columna que se quiere mantener], value_vars=['columnas que se quieren ubicar una encima de la otra]): Converte todas las columnas a sólo dos: variable ( nombre de columna) y value ( valor ). Sirve para graficar más de dos columnas facilmente por ejemplo
 - sns.catplot(kind='count', hue='', col=''): el kinddefine que uno de los ejes será la suma de ocurrencias del otro. Con hue='' se puede dividir más y en colores. con col=, genera dos o más subplots. **este es un gráfico que funciona a nivel figura, porque lo que no se puede hacer subplot con mpl**
 
+### R1D64
+
+- sns.heatmap(data, annot=True, fmt=''): el fmt es el formato de las anotaciones, puede ser por ejemplo '.1f' para mostrar sólo un punto decimal (un punto flotante)
+- df.corr(): Genera un DF de correlación útil para realizar el heatmap por ejemplo.
+- Para enmascarar el triángulo superior derecho de un DF/heatmap: 
+    - mask = np.zeros_like(corr) : Genera un array con la misma forma que el df 
+    - mask[np.triu_indices_from(mask)] = True : Guarda sólo el triángulo superior derecho
+    - sns.heatmap(... , mask=mask)
+- Alternativa: mask = np.triu(corr), es más simple
+- fig=nombrecatplot.fig: Para que acceda al Facetgrid de matplotlib el catplot. Deprecada, se usa figure ahora
+- nombrecatplot.set_ylabels('nombre'): Cambiar el nombre del eje en un gráfico catplot
 
 
     
