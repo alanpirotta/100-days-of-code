@@ -935,4 +935,42 @@ https://github.com/alanpirotta/freecodecamp_certif
 
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/data-analysis-with-python/
-https://codigofacilito.com/cursos/visualizacion-altair
+https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
+
+### R1D65
+**Progreso de hoy**:  
+1,5 hora.
+No tenía acceso a mi PC, por lo que avancé con la creación de mi CV, y actualización de linkedin
+
+**Conflictos:** 
+No codee.
+
+**Reflexiones:** 
+dudé mucho si contar este dia dentro de los 100, pero mi parámetro es si fue más de una hora, y si estoy estudiando y preparándome para mi futuro, generando constancia de todos los días avanzar un poco en algo que me encamine para ese futuro, por lo que decidí contarlo.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/freecodecamp_certif *hoy no*
+https://www.linkedin.com/in/alan-uriel-pirotta/
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/data-analysis-with-python/ *hoy no*
+https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
+
+### R1D66
+**Progreso de hoy**:  
+1.5 horas.
+Certificación de FreeCodeCamp. Terminé el tercer proyecto y empecé el cuarto (33%).
+
+**Conflictos:** 
+Estuve media hora más para terminar el conflicot del otro día. Finalmente, era que está filtrando los percentiles desde el df donde ya había eliminado los registros inválidos, y la consigna consideraba esos para los percentiles. 
+
+**Reflexiones:** 
+Tenía gnaas de seguir con este, la verdad me gusta mucho agarrar estos proyectos, y no me gustaba que haya quedado incompleto el tercero. Ya me pasó varias veces que me equivoqué en estos proyectos, por algún punto específico de la consigna que comprendí mal. Tengo que leer más a conciencia las consignas, y repasarlas más seguido, y si me equivoco, releerlas a conciencia completamente.
+Tuve que cortar porque vinieron visitas. Mañana tengo que terminar de agregar valores faltantes de los primeros meses de 2016, para poder manejar bien los colores, después agregar los nombres de los meses a la leyenda y ver después el tema de la forma porque no se por qué está saliendo como difuminado. 
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/freecodecamp_certif
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/data-analysis-with-python/
+https://codigofacilito.com/cursos/visualizacion-altair *hoy no*

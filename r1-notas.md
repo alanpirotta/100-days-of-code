@@ -204,7 +204,7 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
 - np.around('numero',cantidaddedecimales): Redondea el numero a la cantidad de decimales pedidos (me sirvió mucho al calcular la media de columnas)
 - pd.DataFrame(data): Para crear un DataFrame, primero crear un diccionario con las diferentes columnas (los valores pueden ser series, o listas por ejemplo)
 - df.sort_values(by=['columna'], ascending=False): Ordena de mayor a menor (crea nuevo df)
-- df['columna'].replace({valoranterior:valornuevo, valoranterior2:valornuevo2}): Sintaxis que sirve para modificar varios valores por otros en una columna de un df. Genera un nuevo df
+- df['columna'].replace({valoranterior:valornuevo, valoranterior2:valornuevo2}): Sintaxis que sirve para modificar/reemplazar varios valores por otros en una columna de un df. Genera un nuevo df
 - pd.melt(data, id_vars= ['columna que se quiere mantener], value_vars=['columnas que se quieren ubicar una encima de la otra]): Converte todas las columnas a sólo dos: variable ( nombre de columna) y value ( valor ). Sirve para graficar más de dos columnas facilmente por ejemplo
 - sns.catplot(kind='count', hue='', col=''): el kinddefine que uno de los ejes será la suma de ocurrencias del otro. Con hue='' se puede dividir más y en colores. con col=, genera dos o más subplots. **este es un gráfico que funciona a nivel figura, porque lo que no se puede hacer subplot con mpl**
 
@@ -220,5 +220,9 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
 - fig=nombrecatplot.fig: Para que acceda al Facetgrid de matplotlib el catplot. Deprecada, se usa figure ahora
 - nombrecatplot.set_ylabels('nombre'): Cambiar el nombre del eje en un gráfico catplot
 
+### R1D66
+
+- df.quantile(0/1): devuelve el cuantil/percentil que se está pidiendo. Se pueden comparar y usar como filtros para eliminar extremos
+- df[(df['value'] > df['value'].quantile(0.025)) & (df['value'] < df['value'].quantile(0.975))] : Forma de eliminar el top y bottom 2.5% 
 
     
