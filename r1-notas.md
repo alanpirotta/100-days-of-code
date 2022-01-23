@@ -53,7 +53,7 @@ ej: df.rename_axis('nombre_columnas', axis='columns')
 Matplotlib(plt): Sirve para definir las características del gráfico (no el contenico?) 
 - plt.figure(figsize=(ancho,alto)): Define el tamaño del gráfico
 - plt.title("Título del gráfico")
-- plt.xlabel("etiqueta eje X")
+- plt.xlabel("etiqueta eje X"): Equivalente a plt.ylabel
 
 - sns.lineplot(data=DataFrame): gráfico de linea. Puedo definir varias columnas sólas en diferentes lineas, seleciconando DataFrama['columna'] (agregar atributo "label=")
 
@@ -225,4 +225,11 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
 - df.quantile(0/1): devuelve el cuantil/percentil que se está pidiendo. Se pueden comparar y usar como filtros para eliminar extremos
 - df[(df['value'] > df['value'].quantile(0.025)) & (df['value'] < df['value'].quantile(0.975))] : Forma de eliminar el top y bottom 2.5% 
 
-    
+### R1D67
+
+- df['year'] = [d.year for d in df_box.date] : Otra alternativa para loopear por todo la columna de fecha del dataFrame y agrega una sólo con el año
+- df['month'] = [d.strftime('%b') for d in df_box.date]: Forma de crear columna con el mes, desde una columna con la fecha. el '%b' muestra el nombre del mes, en vez del número
+- Formas de hacer una regrasión lineal:
+    - slope, intercept, r_value, p_value, stderr = linregress(x=, y=) : Desempaqueta (unpack) los resultados de la regresión en las diferentes variables.
+    - reg = linregress(x=, y=): Guarda los datos en una sola variable, se pueden acceder por ejemplo con reg.slope.
+- plt.plot(x, reg.intercept + reg.slope*x, 'r', label='fitted'): Para graficar la regresión (se puede hacer en la misma figura que un scatter), utilizando la fórmula en el eje Y. el 'r' indica color rojo. 

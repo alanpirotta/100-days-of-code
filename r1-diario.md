@@ -958,19 +958,21 @@ https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
 
 ### R1D66
 **Progreso de hoy**:  
-1.5 horas.
-Certificación de FreeCodeCamp. Terminé el tercer proyecto y empecé el cuarto (33%).
+2 horas.
+Finalización de la Certificación en data analysis de FreeCodeCamp. Link: https://t.co/zp3KZqa4DJ
+Comienzo de las clases de la certificación en machine learning
 
 **Conflictos:** 
-Estuve media hora más para terminar el conflicot del otro día. Finalmente, era que está filtrando los percentiles desde el df donde ya había eliminado los registros inválidos, y la consigna consideraba esos para los percentiles. 
+No tuve muchas complicaciones, aunque sí tuve que googlear mucho.
 
 **Reflexiones:** 
-Tenía gnaas de seguir con este, la verdad me gusta mucho agarrar estos proyectos, y no me gustaba que haya quedado incompleto el tercero. Ya me pasó varias veces que me equivoqué en estos proyectos, por algún punto específico de la consigna que comprendí mal. Tengo que leer más a conciencia las consignas, y repasarlas más seguido, y si me equivoco, releerlas a conciencia completamente.
-Tuve que cortar porque vinieron visitas. Mañana tengo que terminar de agregar valores faltantes de los primeros meses de 2016, para poder manejar bien los colores, después agregar los nombres de los meses a la leyenda y ver después el tema de la forma porque no se por qué está saliendo como difuminado. 
+Sirvió lo que plantee ayer! en un momento me había trabado, y repasando la consigna me di cuenta del error (estaba graficando la regresión desde 1880 en vez de 2000)
+La verdad que fue una re linda experiencia esta certificación, me incentivó a anotarme en digital house, me organizó un poco con proyectos un poco más chicos y con un objetivo concreto.
+Ya estoy listo para atacar más seriamente machine learning, mientras sigo practicando un poco el análisis de datos exploratorio con el proyecto con los datos de laia.
 
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/freecodecamp_certif
 
 **Certificación en proceso** 
-https://www.freecodecamp.org/learn/data-analysis-with-python/
+https://www.freecodecamp.org/learn/machine-learning-with-python/
 https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
