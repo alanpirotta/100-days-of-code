@@ -976,3 +976,50 @@ https://github.com/alanpirotta/freecodecamp_certif
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/
 https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
+
+### R1D67 - 72
+**Progreso**:  
+Cerca de 10 horas (no las conté, pero calculo eso por el largo de las clases y un extra de investigación).
+Finalización de las clases de la certificación en machine learning
+
+**Conflictos:** 
+Fueron muchos conocimientos juntos, me fascinó pero creo que las clases apuntan a otra cosa que lo que estaba viendo (más a IA). Creo que si no hago proyectos de esto, no voy a retener la mayoría
+
+**Reflexiones:** 
+Tensor flow me dio la misma sensación que antes React o Flask, que podés hacer muchas cosas pero sin saber del todo como se está produciendo. Es algo igual que me pasó con todo hasta cierto nivel, creo que es mi background de químico de tratar de entender el por qué de todo, y en este caso ya los lenguajes tienen muchas cosas "automatizadas".
+Con el uso y la práctica hasta ahora se me fue siempre, porque SIEMPRE hay más preguntas y más dudas y más por qués que voy resolviendo.
+Fuera de eso, los conceptos de los diferentes modelos me gustaron y aprendí mucho de los diferentes tipos de neural networks, complementando lo que ya sabía.
+Mañana arrancaré los proyectos, pero los estuve leyendo y me parece que lo que vi en las clases no es tan directo a lo que me piden, asíque tendré que investigar mucho. (por ejemplo, uno de los proyectos pide KNN, que no la vi en estas clases, aunque lo conozco de Kaggle y del libro que estuve leyendo)
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/
+https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
+
+### R1D73
+**Progreso**:  
+4 horas.
+Primer proyecto completo de la certificación de ML. Juego de piedra-papel-tijera.
+
+**Conflictos:** 
+La primer hora estuve completamente perdido, no sabía como arrancar. La forma en que lo resolví funcionó, pero me dejó sabor agridulce
+
+**Reflexiones:** 
+Voy a describir un poco mi razonamiento al realizar este proyecto, y por qué no me satisfizo.
+- Leí el proyecto, entendí qué buscaba, pero no como lograrlo, porque no lograba sacarme la idea que es un juego de azar. Finalmente entendí que los bots no iban a tirar número random.
+- Traté de sacar el patrón de los bots mediante pruebas simples. Saqué dos de los 4 (los más simples)
+- Empecé a buscar información para que me tiren ideas, pero fue bastante complicado, excepto que un par tiraban el resultado del proyecto entero, y yo no buscaba eso. Algunos decían que con hidden markov model, o q-learning se podía. Me pareció muy complejo, pero quizás era la respuesta correcta y lo que tendría que haber intentado hacer.
+- Decidí ver el código de los bots, y ahí definí bien el patrón de cada uno. Decidí tratar de ganarle al más complejo, y ver ahí como reaccionaban los otros.
+- Razonando como funcionaba el más complejo (abbey), decidí hacer el mismo que abbey, pero con más poder de predicción. Intenté con las últimas 3 predicciones. funcionó bastante bien, pero fallaba.
+- Buscando un poco más en foros, decantó la idea de que podía generalizar mi código anterior, agregando un parámetro n para dictaminar el nivel de respuestas anteriores a considerar en mi predicción. 
+- Desarrollé esto, y luego probando valores de n y del parámetro inicial, llegué a los porcentajes buscados.
+Obtuve el resultado buscado y estoy consciente que desarrollo un poco más mi mentalidad de data scientist, pero siento que me quedaron muchos agujeros. La decisión que tomé para probar no fue considerando como funcionaba el oponente y por qué eso funcionaría, sino que simplemente fue "si vos consideras dos niveles, yo voy a considerar más y probar". No hubo base científica ahí fuera de mi criterio. También, que no usé ningún modelo de ML, con lo cual me da la sensación de que podría haber aprendido más.
+Este fue el primer proyecto que me sentí perdido completamente al inicio (hasta el punto de no querer arrancarlo y querer dejarlo), que luego empecé a desarrollar un razonamiento hasta que logré obtener una respuesta coherente, y que salí sintiendo que podría haber aprendido mucho más y que no lo resolví bien, aunque cumplí el objetivo.
+Conclusión: Pasé mi primer frustración grande de no poder encarar algo! Ya aceptaré también el hecho de no haberlo hecho perfecto. Cuando terminé los otros proyectos, quizás vuelva a este para tratar de hacerlo con algún modelo.
+
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/freecodecamp_certif
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/
+https://codigofacilito.com/cursos/visualizacion-altair *hoy no*

@@ -233,3 +233,8 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
     - slope, intercept, r_value, p_value, stderr = linregress(x=, y=) : Desempaqueta (unpack) los resultados de la regresión en las diferentes variables.
     - reg = linregress(x=, y=): Guarda los datos en una sola variable, se pueden acceder por ejemplo con reg.slope.
 - plt.plot(x, reg.intercept + reg.slope*x, 'r', label='fitted'): Para graficar la regresión (se puede hacer en la misma figura que un scatter), utilizando la fórmula en el eje Y. el 'r' indica color rojo. 
+
+
+### R1D73
+
+- max(lista_de_respuestas, key= condicion_generadora_de_respuesta): Sirve para averiguar el índice que tiene el máximo de un diccionario (poniendo por ej: key= lambda k: dict[k] o key= dict.get) o el máximo de ocurrencias en una lista (con key=lista.count)). 
