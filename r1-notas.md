@@ -238,3 +238,17 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
 ### R1D73
 
 - max(lista_de_respuestas, key= condicion_generadora_de_respuesta): Sirve para averiguar el índice que tiene el máximo de un diccionario (poniendo por ej: key= lambda k: dict[k] o key= dict.get) o el máximo de ocurrencias en una lista (con key=lista.count)). 
+
+### R1D74
+
+- !wget: Trae datos desde un servidor en la web, sin descargar el archivo. Ej: !wget https://cdn.freecodecamp.org/project-data/cats-and-dogs/cats_and_dogs.zip
+- !unzip: Descomprime un archivo. SE puede descomprimir el archivo traído con !wget
+- os.path.join(path1, path2): Une dos path, poniendo un / en el medio. Sirve para acceder a una carpeta dentro de una carpeta
+- for root, directory, files in os.walk(train_dir): recorre un path y todos los subdirectorios dentro, devolviendo la carpeta root, los directorios dentro (en primer nivel) y los nombre de archivos,
+- image_generator = ImageDataGenerator(rescale=1./255): Generador de imágenes que permite hacer image augmentation, con algunos atributos (rescale sirve para que todas las imágenes tenga el mismo tamaño). Tiene el método flow_from_directory, por ejemplo
+- Para hacer la modificación de las imágenes y poder dejarlas aptas para nuestro modelo, desde un directorio. Nota: SIEMPRE espera tener al menos una carpeta dentro del directory (no se pueden tirar las imágenes dentro de la carpeta test directo, por ejemplo)
+    image_generator.flow_from_directory(
+        directory= train_dir,
+        target_size=(IMG_HEIGHT, IMG_WIDTH),
+        class_mode='categorical',
+        batch_size= batch_size)

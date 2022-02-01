@@ -1024,3 +1024,26 @@ https://github.com/alanpirotta/freecodecamp_certif
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/
 https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
+
+
+### R1D74
+**Progreso**:  
+2 horas.
+Creación de mail e investigación de como se usa google colab.
+Comienzo de planteamiento de segundo proyecto de ML en curso
+
+**Conflictos:** 
+Arranqué muy tarde, no me decidía por donde seguir, entre segundo proyecto, seguir con el de data analysis con datos modificados de LAIA, armar el CV o investigar un poco más sobre modelos.
+Me hice un poco de embrollo con el tema de cargar el dataSet, y la documentación y ejemplos rápidos de tf siempre usan dataSets precargados en librerías. Logré encontrar la solución investigado un poco la documentación, y cuando lo entendí, me di cuenta que la consigna me estaba ya diciendo qué métodos usar. Me faltó traer correctamente las imágenes de test, creo que porque falta una carpeta intermedia. Mañana lo veré con ojos frescos y finalizo esta parte al menos.
+
+**Reflexiones:** 
+Me costó un poco recuperarme de lo de ayer, pero creo que finalmente estoy procesándolo. Es la primera vez que buscar en internet me hizo sentir que no estaba haciéndolo yo, pero al fin y al cabo desarrollé el razonamiento, lo codee y pensando un poco, me di cuenta que la forma que lo decidí, era un formato muy básico de Q learning (le faltaban varios factores extra).
+Tardé un rato en averiguar que quería hacer, pero la verdad, quiero seguir completando los proyectos, me gusta ese reto. Hoy finalmente sé por primera vez Google Colab!! Es re interesante y va a ser re útil poder acceder desde cualquier PC, pero tengo que aprenderme las hotkeys, ya que no son iguales.
+Volví a caer en la de pensar e investigar mucho y terminar olvidándome de detalles que decía la consigna para ayudarme y hacermelo más fácil. Fuera de que termino gastando más tiempo, no es tan grave esto, y al mismo tiempo si llego a la misma conclusión, luego siento que la investigación dio frutos, y que aprendí más (como en este caso).
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/freecodecamp_certif
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/
+https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
