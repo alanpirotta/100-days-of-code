@@ -1042,7 +1042,7 @@ Tardé un rato en averiguar que quería hacer, pero la verdad, quiero seguir com
 Volví a caer en la de pensar e investigar mucho y terminar olvidándome de detalles que decía la consigna para ayudarme y hacermelo más fácil. Fuera de que termino gastando más tiempo, no es tan grave esto, y al mismo tiempo si llego a la misma conclusión, luego siento que la investigación dio frutos, y que aprendí más (como en este caso).
 
 **Enlace a mi trabajo:** 
-https://github.com/alanpirotta/freecodecamp_certif
+https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb
 
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/
