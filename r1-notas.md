@@ -252,3 +252,34 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
         target_size=(IMG_HEIGHT, IMG_WIDTH),
         class_mode='categorical',
         batch_size= batch_size)
+
+
+### R1D75
+
+- Para pasar/mover archivos de una carpeta a otra:
+    import os
+    import shutil
+
+    source = 'proyectosCortosPython/a_mover'
+    destination = 'proyectosCortosPython/'
+
+    files = os.listdir(source)
+    for file in files:
+        file_name = os.path.join(source, file)
+        shutil.move(file_name, destination)
+    print("Files Moved")
+- Si no se tiene un subdirectorio, se puede usar el root para poner en from_directory, seleccionando en classes=[] la carpeta que contiene los archivos a testear
+
+- image augmentation: es como se puede modificar las imágenes para que sean más fáciles de modelar, y al mismo tiempo se pueden realizar transformaciones para duplicar la cantidad de train_data.
+
+    ImageDataGenerator(
+        rescale=  ,      : reescala todas las imágenes para que estén todas en rango entre 0 y 1 
+        fill_mode= ,     : Rellena los pixeles vacíos al realizar transformaciones (en rotación por ejemplo).
+        vertical_flip=True,  : invierte la imagen izquierda/derecha.
+        horizonta_flip=True, : ídem anterior arriba/abajo.
+        rotation_range= ,    : Gira la imagen en el angulo que se pone.
+        zoom_range= ,      : Hace zoom a la imagen. si es un float, hace al azar entre [1-float,1+float]. menos de 1 acerca, más de 1 aleja
+        width_shift_range= , : mueve la imagen para un costado. Si se pone un float, es porcentaje, y si es un int es la cantidad de pixeles
+        height_shift_range= , : Ídem anterior pero de altura
+        brightness_range=[0.4,1.5] : cambia la luz de la imagen, en valores dentro del rango marcado. menos de 1 es más oscuro, más de uno más claro.
+        )

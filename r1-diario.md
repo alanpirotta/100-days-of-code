@@ -1047,3 +1047,30 @@ https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-im
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/
 https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
+
+
+### R1D75
+**Progreso**:  
+1.5 horas.
+Sigo con el segundo proyecto de ML en curso
+
+**Conflictos:** 
+No tuve mucho tiempo en pc porque me tenía que ir.
+
+**Reflexiones:** 
+Pude resolver lo de ayer, encontré una forma pero mientras investigaba encontré una idea mucho más simple (modificar que carpet consideraba de entrada,en vez de mover archivos)
+Hoy aprendí bastante sobre imagedatagenerator, porque a pesar de poder resolverlo rápido, me gaste en dedicar tiempo a leer un poco más, entender cada transformación. No se si es completamene necesario, pero yo necesito entender lo mejor posible que hace cada cosa, y no solo copiar y pegar cosas que se que funcionan.
+*A investigar en el futuro*
+- Como reubicar archivos y carpetas cuando saca los datasets de internet directo.
+- la forma (shape) del datagen, a que corresponde cada dimensión.
+Mañana sigo con la parte del modelado.
+
+
+**Enlace a mi trabajo:** 
+https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb
+https://github.com/alanpirotta/proyectosCortosPython
+
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/
+https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
