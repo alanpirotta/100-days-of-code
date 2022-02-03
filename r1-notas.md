@@ -283,3 +283,90 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
         height_shift_range= , : Ídem anterior pero de altura
         brightness_range=[0.4,1.5] : cambia la luz de la imagen, en valores dentro del rango marcado. menos de 1 es más oscuro, más de uno más claro.
         )
+
+
+### R1D76
+
+Ejemplo de proceso para una convolutional network con tf y keras:
+**plantear modelo**
+model = Sequential([                              
+    # First conv layer + subsampling
+    tf.keras.layers.Conv2D(64, (3, 3), activation='relu', input_shape=(150, 150, 3)),
+    tf.keras.layers.MaxPooling2D(2, 2),
+    # Second conv layer + subsampling
+    tf.keras.layers.Conv2D(256, (3, 3), activation='relu'),
+    tf.keras.layers.MaxPooling2D(2, 2),
+    # Third layer (flatten)
+    tf.keras.layers.Flatten(),
+    # Fourth layer (dense)
+    tf.keras.layers.Dense(128, activation='relu'),
+    # Fifth layer (output)
+    tf.keras.layers.Dense(2)
+])
+**mostrar resumen de layers**
+model.summary()
+**compilar modelo**
+model.compile(
+    optimizer='adam',
+    loss='sparse_categorical_crossentropy',
+    metrics=['accuracy']
+)
+**fittear el modelo con los datos**
+history = model.fit(train_data_gen,
+                    steps_per_epoch= train_steps,
+                    epochs= epochs,
+                    validation_data= (val_data_gen),
+                    validation_steps= val_steps,
+                    )
+**observación:** Si x es un dataset, generator, o keras.utils.Sequence instance, NO va y (este caso). Sino, hay que ponerlo (ídem ara validation_date)
+**Ver la perdida de accuracy**
+acc = history.history['accuracy']
+val_acc = history.history['val_accuracy']
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+epochs_range = range(epochs)
+plt.figure(figsize=(8, 8))
+plt.subplot(1, 2, 1)
+plt.plot(epochs_range, acc, label='Training Accuracy')
+plt.plot(epochs_range, val_acc, label='Validation Accuracy')
+plt.legend(loc='lower right')
+plt.title('Training and Validation Accuracy')
+plt.subplot(1, 2, 2)
+plt.plot(epochs_range, loss, label='Training Loss')
+plt.plot(epochs_range, val_loss, label='Validation Loss')
+plt.legend(loc='upper right')
+plt.title('Training and Validation Loss')
+plt.show()
+**Evaluar el test data**
+probabilities = np.argmax(model.predict(test_data_gen), axis=-1)
+test_images = [test_data_gen[0][i] for i in range(50)]
+
+def plotImages(images_arr, probabilities = False):
+    fig, axes = plt.subplots(len(images_arr), 1, figsize=(5,len(images_arr) * 3))
+    if probabilities is False:
+      for img, ax in zip( images_arr, axes):
+          ax.imshow(img)
+          ax.axis('off')
+    else:
+      for img, probability, ax in zip( images_arr, probabilities, axes):
+          ax.imshow(img)
+          ax.axis('off')
+          if probability > 0.5:
+              ax.set_title("%.2f" % (probability*100) + "% dog")
+          else:
+              ax.set_title("%.2f" % ((1-probability)*100) + "% cat")
+    plt.show()
+plotImages(test_images, probabilities=probabilities)
+
+
+-   tf.keras.layers.Conv2D(cantidad de filtros, (3, 3) -> Tamaño de filtro, activation='relu' u otro, 
+        input_shape=(150, 150, 3)) : tamaño de las muestras y canales (en este caso, imágenes de 150x150 RGB, si fuera gris sería 1 el último). Sólo va en la primera
+- Usar esta función para calcular los steps_per_epoch y validation_steps, sin generar conflicto con las cantidades inexactas.
+def cal_steps(num_images, batch_size):
+   # calculates steps for generator
+   steps = num_images // batch_size
+
+   # adds 1 to the generator steps if the steps multiplied by
+   # the batch size is less than the total training samples
+   return steps + 1 if (steps * batch_size) < num_images else steps
+

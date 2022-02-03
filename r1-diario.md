@@ -1074,3 +1074,30 @@ https://github.com/alanpirotta/proyectosCortosPython
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/
 https://codigofacilito.com/cursos/visualizacion-altair *hoy no*
+
+### R1D76
+**Progreso**:  
+6 horas.
+Sigo con el segundo proyecto de ML en curso, con la parte del modelado.
+Vi algunas de las clases del curso de deep learning de codigo facilito
+
+**Conflictos:** 
+Mi modelado encontró un mínimo local o algo así, y me está dando cada epoch una accuracy de 0.5 y la misma pérdida. Estuve investigando y al parecer es eso, cambié el optimizador, la última activación de la dense layer (rimero a sigmoid, y depsués la "eliminé" con logit=True en el loss=). Podría haber probado también con el learning rate como alternativa para averiguar más específicamente.
+Tuve problemas con ver las imágenes al final, si usaba el mismo código adaptado que en el sample, me tiraba error de cantida de variables para desempaquetar, asíque tuve que buscar alternativa
+
+**Reflexiones:** 
+Hoy estuve investigando bastante sobre el compile, el fit y el evaluate de los modelos de keras, y sus atributos, porque encontré varios conflictos.
+No pude resolver el último conflicto, tengo que probar varias cosas, y cambiar quizás los parámetros de las diferentes capas (investigar más sobre esto)
+Decidí aprovechar los tiempos que no tengo una PC para avanzar con algunos cursos de videos, para complementar la práctica codeando, y encontrar bien un equilibrio entre ambas cosas.
+ACtualización: volví más a la noche, y pude encontrarle la vuelta, cambiando la activación de las dense layers, y finalmente con logit=True en el loss= y eliminando el activator en la útlima dense layer, además de cambiar el optimizador a 'adam'
+Sin embargo, el training es muy lento (20 minutos todavía) y llegué sólo a 56%. Tampoco logré imprimir correctamente las imágenes en la parte de predicción (tengo que ver mejor como es la shape de test_data_gen me parece)
+*Me había olvidado de activar que modele con el GPU!*. Con esto, pasó de 20min a 6min
+Después tuve que tocar un poco el image augmentation y las cantidades de filtros, hasta que logré el objetivo. Se podría tocar mucho más, o probar con mayores cantidades de filtros y capaz una capa menos.
+
+
+**Enlace a mi trabajo:** 
+https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/
+https://codigofacilito.com/cursos/introduccion-deep-learning
