@@ -1101,3 +1101,24 @@ https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-im
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/
 https://codigofacilito.com/cursos/introduccion-deep-learning
+
+
+### R1D77
+**Progreso**:  
+4 horas.
+Averigué como utilizar la página de canva, y generé mi CV. También investigué sobre búsquedas laborales.
+Seguí con un par de clases del curso de codigo facilito.
+
+**Conflictos:** 
+Me vacunaron y no tenía muchas fuerzas mentales para arrancar un nuevo proyecto
+
+**Reflexiones:** 
+Finalmente pude sentarme a hacer el CV! Creo que para una primera versión quedó bien, y pude poner lo que me parece relevante de mi camino.
+Mañana volveré a los proyectos de la certificación de FreeCodeCamp.
+
+**Enlace a mi trabajo:** 
+https://www.canva.com/design/DAE3O-r4YgY/38HSIYmc3q19HB1xRn0xyg/edit
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/  *hoy no*
+https://codigofacilito.com/cursos/introduccion-deep-learning
