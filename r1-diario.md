@@ -1117,7 +1117,26 @@ Finalmente pude sentarme a hacer el CV! Creo que para una primera versión qued�
 Mañana volveré a los proyectos de la certificación de FreeCodeCamp.
 
 **Enlace a mi trabajo:** 
-https://www.canva.com/design/DAE3O-r4YgY/38HSIYmc3q19HB1xRn0xyg/edit
+https://www.canva.com/design/DAE3O-r4YgY/Aqa0fTHVV1XwHjkqRpnZrA/view?utm_content=DAE3O-r4YgY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/  *hoy no*
+https://codigofacilito.com/cursos/introduccion-deep-learning
+
+### R1D78
+**Progreso**:  
+2 horas.
+Mejoré varios puntos de mi linkedIn y CV.
+Avancé con un par de clases del curso de codigo facilito, y profundicé en los diferentes algotirmos, como regresión lineal, logística, KNN y árboles de decisión.
+
+**Conflictos:** 
+La vacuna me dejó muy cansado
+
+**Reflexiones:** 
+Fuera de que la vacuna hizo que me agotara muy fácil y me costó sentarme, fue muy útil para mi futuro ya que me permitió avanzar con la actualización de mi CV y linkedIn, y profundizar más en la teoría. Hacer proyectos me fija los conocimientos, pero ya me ha pasado hace unos años, que para lograr resultados rápido, se puede terminar aprendiendo algo demasiado superficialmete o incluso mal, y no voy a dejar que paso con machine learning.
+
+**Enlace a mi trabajo:** 
+https://www.canva.com/design/DAE3O-r4YgY/Aqa0fTHVV1XwHjkqRpnZrA/view?utm_content=DAE3O-r4YgY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/  *hoy no*
