@@ -370,3 +370,11 @@ def cal_steps(num_images, batch_size):
    # the batch size is less than the total training samples
    return steps + 1 if (steps * batch_size) < num_images else steps
 
+### R1D79
+
+- data = df1.merge(right=df2, on='isbn') : Para unir/concatenar dos DF, el on= dice que columna comparar para unir y agregar el resto de columnas.
+- df.info o df['columna'].isnull().value_counts(): Se puede obtener si existen valores nulos/vacíos en el df.
+- pivot_df = df.pivot(index='columna1', columns='columna2', values='columna3').fillna(0): Crea un df con los datos delas 3 columnas, marcando las relaciones. Sirve para el modelo de nearestNeighbor (requiere un array o un aray like). Se tiene que convertir a array, por ejemplo haciendo pivot_df.values (creo que no es completamente necesario)
+- Para modelar con NearestNeighbors,m unsupervised,y encontrar los puntos cercanos a un dato buscado, se puede hacer así. Si lo que se busca es un string, se debe convertir primero a un numero (por ejemplo, buscar el índice donde se encuentra)
+    nbrs = NearestNeighbors(n_neighbors=5, algorithm='brute', metric='cosine').fit(pivot_df)     : El cosine hace que las distancias sean menores a 1.
+    distances, title_indexes = nbrs.kneighbors(X=np.reshape(fila,(1,-1)), n_neighbors=5)     : La fila es todos los datos del punto que se quiere averiguar, basicamente, buscar la fila con ese índice en el df

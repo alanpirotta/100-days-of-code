@@ -1107,7 +1107,7 @@ https://codigofacilito.com/cursos/introduccion-deep-learning
 **Progreso**:  
 4 horas.
 Averigué como utilizar la página de canva, y generé mi CV. También investigué sobre búsquedas laborales.
-Seguí con un par de clases del curso de codigo facilito.
+Seguí y terminé con un par de clases del curso de codigo facilito (falta confirmarlo en la app porque vi la clase entera y no los módulos por separado).
 
 **Conflictos:** 
 Me vacunaron y no tenía muchas fuerzas mentales para arrancar un nuevo proyecto
@@ -1140,4 +1140,23 @@ https://www.canva.com/design/DAE3O-r4YgY/Aqa0fTHVV1XwHjkqRpnZrA/view?utm_content
 
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/  *hoy no*
-https://codigofacilito.com/cursos/introduccion-deep-learning
+https://codigofacilito.com/cursos/ml-introduccion
+
+### R1D79
+**Progreso**:  
+5 horas.
+Realicé el tercer proyecto de la certificación de ML de FreeCodeCamp.
+
+**Conflictos:** 
+Me costó bastante encontrar info, stackOverflow estuvo caído todo el día.
+
+**Reflexiones:** 
+Investigar sobre metric=cosine en el nearest neighbor, me quedó la duda de las distancias cual es mejor, y como realiza ese cálculo (necesitaba que diera menos de uno, pero no encontré documentación apropiada que me explique eso)
+Me las arreglé bastante bien en general, aunque hice un poco de limpieza de datos de más (quería practicar un poco eso). Tuve que ver un poco el foro de freecodecamp para guiarme porque no terminaba de entender como presentar la info para que el modelo funcione (una pivot table funcionó, aunque no usé al final el csr_matrix)
+
+**Enlace a mi trabajo:** 
+https://colab.research.google.com/drive/1XeF-dDCsiz7Sl-hbFT0MLoU9duvuBcEz#scrollTo=62BUftev1gRa
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/  
+https://codigofacilito.com/cursos/ml-introduccion *hoy no*
