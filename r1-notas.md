@@ -378,3 +378,27 @@ def cal_steps(num_images, batch_size):
 - Para modelar con NearestNeighbors,m unsupervised,y encontrar los puntos cercanos a un dato buscado, se puede hacer así. Si lo que se busca es un string, se debe convertir primero a un numero (por ejemplo, buscar el índice donde se encuentra)
     nbrs = NearestNeighbors(n_neighbors=5, algorithm='brute', metric='cosine').fit(pivot_df)     : El cosine hace que las distancias sean menores a 1.
     distances, title_indexes = nbrs.kneighbors(X=np.reshape(fila,(1,-1)), n_neighbors=5)     : La fila es todos los datos del punto que se quiere averiguar, basicamente, buscar la fila con ese índice en el df
+
+### R1D81
+
+- np.where(condicion, valor si True, valor si False): Sirve para convertir texto de un dataset a valores binarios por ejemplo. Es el equivalente por ejemplo a extraer parte de un dataset cuando el texto == a algo, y coenvertir todos esos valores a 1, y el resto a 0
+- Forma de dividir un dataset en traing/test data:
+    from sklearn.model_selection import train_test_split
+    train, test = train_test_split(dataset, test_size=0.2)
+    y_train = train.pop('columna con resultado/label')
+    y_test = test.pop('columna con resultado/label')
+*Se puede hacer también con tensorflow*
+
+- Ejemplo de Regresión lineal sin tensorFlow/keras:
+    from sklearn.linear_model import LinearRegression
+    from sklearn.metrics import mean_absolute_error
+    model = LinearRegression()
+
+    lr = model.fit(train_dataset, train_labels)
+    train_prediction = model.predict(train_dataset)
+    train_mae = mean_absolute_error(train_prediction, train_labels)
+    train_mae
+
+    test_pred = model.predict(test_dataset)
+    test_mae = mean_absolute_error(test_pred, test_labels)
+    test_mae

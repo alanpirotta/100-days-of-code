@@ -1151,8 +1151,9 @@ Realicé el tercer proyecto de la certificación de ML de FreeCodeCamp.
 Me costó bastante encontrar info, stackOverflow estuvo caído todo el día.
 
 **Reflexiones:** 
-Investigar sobre metric=cosine en el nearest neighbor, me quedó la duda de las distancias cual es mejor, y como realiza ese cálculo (necesitaba que diera menos de uno, pero no encontré documentación apropiada que me explique eso)
+Investigar sobre metric=cosine en el nearest neighbor, me quedó la duda de las distancias cual es mejor, y como realiza ese cálculo (necesitaba que diera menos de uno y esta función es lo normal, pero no encontré documentación apropiada que me explique eso para este caso)
 Me las arreglé bastante bien en general, aunque hice un poco de limpieza de datos de más (quería practicar un poco eso). Tuve que ver un poco el foro de freecodecamp para guiarme porque no terminaba de entender como presentar la info para que el modelo funcione (una pivot table funcionó, aunque no usé al final el csr_matrix)
+
 
 **Enlace a mi trabajo:** 
 https://colab.research.google.com/drive/1XeF-dDCsiz7Sl-hbFT0MLoU9duvuBcEz#scrollTo=62BUftev1gRa
@@ -1160,3 +1161,45 @@ https://colab.research.google.com/drive/1XeF-dDCsiz7Sl-hbFT0MLoU9duvuBcEz#scroll
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/  
 https://codigofacilito.com/cursos/ml-introduccion *hoy no*
+
+
+
+### R1D80
+**Progreso**:  
+1,5 horas.
+finalicé el curso de introducción a ML de codigo facilito.
+
+**Conflictos:** 
+Ninguno
+
+**Reflexiones:** 
+Vengo de unos días medio complicados, por varios temas personales y laborales (entre ellos una auditoría de la certificación) me está costando sentarme y avanzar. Aproveché aunque sea para seguir repasando algunos conceptos básicos que no usé mucho y no estaban tan fijos, o que entiendo el concepto y cuando/como se usan, pero capaz no el nombre.
+
+
+**Enlace a mi trabajo:** 
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/  *hoy no*
+https://codigofacilito.com/cursos/ml-introduccion 
+
+### R1D81
+**Progreso**:  
+3 horas.
+50% del curso de prácticas de ML en cddigo facilito.
+Inicio del 4to proyecto de freecodecamp, con un acercamiento rápido con algoritmo lineal ($3897 de diferencia, tengo que bajarlo a $3500)
+Creé una copia de los notebooks de google colab en el repo de github de forma directa.
+
+**Conflictos:** 
+Ninguno
+
+**Reflexiones:** 
+Sigo con poca energía en general, estoy un poco saturado y me está pegando más fuerte el hecho de la posibilidad de cambiar de trabajo (no dudo de la decisión, mi ciclo ahí está cumplido, pero siguen siendo 8 años y medio y mucho crecimiento).
+Voy a organizar un poco para ordenar más los horarios, eso me estuvo complicando también, y sin una semirutina cuesta mucho más sentarme enfrente de la PC cuando estoy cansado. Lo bueno, es que sigue pasando que en el momento que me logro sentar, disfruto avanzar, investigar, aprender, programar, todo :)
+Finalmente preparé todos los datos del proyecto y realicé un acercamiento rápido. No pude testearlo correctamente con la celda del notebook porque me pide que lo hago con tf/keras, pero quería repasar hacerlo manualmente primero. Mañana lo realizo con tf y pruebo otros algoritmos para ver cual es el mejor.
+
+
+**Enlace a mi trabajo:** 
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/  *hoy no*
+https://codigofacilito.com/cursos/ml-problemas-practicos
