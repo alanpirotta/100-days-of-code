@@ -402,3 +402,12 @@ def cal_steps(num_images, batch_size):
     test_pred = model.predict(test_dataset)
     test_mae = mean_absolute_error(test_pred, test_labels)
     test_mae
+
+- Coeficientes de un modelo linearl: model.intercept_, model.coef_
+
+
+### R1D82
+
+- Ejemplo de como marcar una annotation de un outlier en un gráfico
+plt.annotate('Possible outlier', xy=(46,0.030), xytext=(189,0.0070), fontsize=12, arrowprops=dict(arrowstyle='->', ec='grey', lw=2), bbox = dict(boxstyle="round", fc="0.8")) 
+- 

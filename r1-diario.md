@@ -1199,7 +1199,41 @@ Finalmente preparé todos los datos del proyecto y realicé un acercamiento ráp
 
 
 **Enlace a mi trabajo:** 
+https://colab.research.google.com/drive/1v2L6fUF48JZafXS5PjJfuH5I83Y4fRP5?usp=sharing
 
 **Certificación en proceso** 
-https://www.freecodecamp.org/learn/machine-learning-with-python/  *hoy no*
+https://www.freecodecamp.org/learn/machine-learning-with-python/  
 https://codigofacilito.com/cursos/ml-problemas-practicos
+
+### R1D82
+**Progreso**:  
+3 horas.
+Finalicé el 4to proyecto de la certificación. 
+
+**Conflictos:** 
+Primero quise seguir con la regresión lineal, y probar diferentes enfoques:
+- No son colineales, son todas variables lo suficientemente independientes.
+- No me parece que ninguna feature sea descartable porque no es relevante.
+- Eliminé los bmi outliers. Mejoró un poco, pero no lo suficiente. Quedó:
+  - Train score: 0.7556134930562202
+  - Test score: 0.7229654974985801
+  - Test MAE: 3887.8871416368293
+Segundo, probé con Ridge Regression, aunque sabía que no iba a servir debido a que no hay colinealidad y todos los features son relevantes.
+Conclusión: No sirvió, da igual o peor que el lineal.
+*Nota:* Cambié la forma en que convertí los datos de región a número, y el MAE obtenido aumentó mucho, a pesar de que la única variación fue que las regiones cambiaron de números entre si.
+Tercero, probé con tensorflow_decision_forests:
+- Tuve un conflicto en el momento de importación, porque las librerías predeterminadas que había generaban conflicto. 
+- Como este modelo necesita un tensor dataset, mantiene el label dentro del mismo dataset, no lo separa. Debido a esto, tuve que sacar la parte de test_labels del método de testeo.
+- Dio muy bien, 2500 de MAE. 
+
+**Reflexiones:** 
+Pude obtener un buen resultado para entregarlo, pero no me gustó que tuviera que modificar la parte de testeo, y me dio loss 0.000000, lo cual me resulta muy sospechoso, por lo que mañana o pasado revisaré un poco mejor todo, y veré de usar otro método, o probar sin tensorflow. 
+Este proyecto decidí tomarmelo con más calma, probar más cosas y testear algunas que yo estaba casi seguro que no necesitaba (no era necesario realizar un EDA como el que hice, era preferible probar otros modelos de una), pero son útiles de repasar y practicar y por eso lo hice.
+
+**Enlace a mi trabajo:** 
+https://colab.research.google.com/drive/1v2L6fUF48JZafXS5PjJfuH5I83Y4fRP5?usp=sharing
+https://colab.research.google.com/drive/1mGrgoSAswbI6jbpYnmMKuZSbWLUWlGAb?usp=sharing
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/  
+https://codigofacilito.com/cursos/ml-problemas-practicos *hoy no*
