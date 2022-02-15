@@ -1162,8 +1162,6 @@ https://colab.research.google.com/drive/1XeF-dDCsiz7Sl-hbFT0MLoU9duvuBcEz#scroll
 https://www.freecodecamp.org/learn/machine-learning-with-python/  
 https://codigofacilito.com/cursos/ml-introduccion *hoy no*
 
-
-
 ### R1D80
 **Progreso**:  
 1,5 horas.
@@ -1237,3 +1235,45 @@ https://colab.research.google.com/drive/1mGrgoSAswbI6jbpYnmMKuZSbWLUWlGAb?usp=sh
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/  
 https://codigofacilito.com/cursos/ml-problemas-practicos *hoy no*
+
+
+### R1D83
+**Progreso**:  
+x horas, no las registré
+finalicé el curso de problemas practicos de ML de codigo facilito.
+
+**Conflictos:** 
+Estuve enfermo y con fiebre, no podía salir de la cama.
+
+**Reflexiones:** 
+Caí en cama ayer por fiebre y varios síntomas más, pero tenía muchas ganas de seguir aprendiendo y practicando, asique hice lo que pude sin ser capaz de salir de la cama. Este curso la verdad que fue muy útil, probablemente vaya a repasar algunas cosas luego para registrarlas en mis notas.
+
+
+**Enlace a mi trabajo:** 
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/  *hoy no*
+https://codigofacilito.com/cursos/ml-problemas-practicos
+
+### R1D84
+**Progreso**:  
+5 horas.
+Realicé el último proyecto de la certificación de ML de freecodecamp
+Dos días anteriores que no conté: vi varias clases sobre estadística en freecodecamp, para recordar varios conceptos que no tenía frescos pero estaba necesitando.
+
+**Conflictos:** 
+Me costó sentarme porque todavía no me recuperé del todo de la enfermedad.
+El proyecto en si no me generó ningún problema duradero o extraño.
+
+**Reflexiones:** 
+La gripe que tuve me complicó el estudiar los últimos días, ya que no podía salir de la cama. Sin embargo aproveché para ver algunas clases de temas teóricos que me venía bien refrescar, principalmente de estadística.
+El proyecto este me gustó mucho hacerlo, tuvo un poco de sentirme perdido, de encontrar un camino a realizar, de temas nuevos (nunca había codeado un proyecto de NLP), de errores tontos (estuve 10 minutos porque la corrección me decía que fallaba aunque yo sabía que daba bien, y era porque en vez de usar el parámetro de la función, usaba una variable de prueba mía, que quedaba fija :P).
+Me alegró mucho sentarme de nuevo a realizar el proyecto, y que me saliera. En los siguientes días, revisaré de nuevo el 4to proyecto (lo que estudié los últimos días me hizo dar cuenta de un par de errores que considero graves, a pesar de que cumplía lo solicitado), avanzaré con algunos de los cursos que me faltaban de kaggle, y quiero arrancar con alguna prueba de ahí.
+
+*nota a futuro:* Los notebooks los estoy haciendo con todas explicaciones para el paso a paso, y dejo las pruebas que hice para poder ver mi razonamiento, pero quizás sería mejor modificarlos para hacerlos "entregables", eliminando todos los pasos innecesarios.
+
+**Enlace a mi trabajo:** 
+
+
+**Certificación en proceso** 
+https://www.freecodecamp.org/learn/machine-learning-with-python/  

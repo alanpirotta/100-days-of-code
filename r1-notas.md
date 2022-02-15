@@ -410,4 +410,16 @@ def cal_steps(num_images, batch_size):
 
 - Ejemplo de como marcar una annotation de un outlier en un gráfico
 plt.annotate('Possible outlier', xy=(46,0.030), xytext=(189,0.0070), fontsize=12, arrowprops=dict(arrowstyle='->', ec='grey', lw=2), bbox = dict(boxstyle="round", fc="0.8")) 
-- 
+
+
+### R1D84
+
+- pwd : Muestra el directorio donde está ubicado el notebook
+- pd_read_table : para leer archivos .tsv (tab separated values). names=() define los nombre de columnas (ídem a pd_read_csv)
+- array.squeeze() : Sirve para eliminar dimensiones vacías es un array. Por ej: [[[2]]] lo convierte a [2]
+- Para contar ocurrencias de cada valor en un np.array, como un diccionario:
+    unique, counts = np.unique(array, return_counts=True)
+    dict(zip(unique, counts))
+
+página útil sobre diferentes formas de tokenization
+https://www.analyticsvidhya.com/blog/2019/07/how-get-started-nlp-6-unique-ways-perform-tokenization/#:~:text=Tokenization%20is%20essentially%20splitting%20a,smaller%20units%20are%20called%20tokens.&text=The%20tokens%20could%20be%20words%2C%20numbers%20or%20punctuation%20marks.
