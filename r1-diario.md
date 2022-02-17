@@ -1277,3 +1277,22 @@ Me alegró mucho sentarme de nuevo a realizar el proyecto, y que me saliera. En 
 
 **Certificación en proceso** 
 https://www.freecodecamp.org/learn/machine-learning-with-python/  
+
+### R1D85
+**Progreso**:  
+2 horas.
+70% Curso de SQL de Kaggle 
+
+**Conflictos:** 
+Ninguno
+
+**Reflexiones:** 
+Decidí arrancar por este curso al volver a estos cursos, porque necesito refrescar un poco SQL, ya que es un conocimiento necesario pero que no estuve usando casi nada para los demás proyectos y certificaciones, y hacerme buenas notas para poder buscar en un futuro.
+Esta semana igual tengo que corregir los errores del 4to proyecto del último curso, me molesta que me quedara así ese proyecto. 
+Ayer no programé porque organicé todo para empezar la búsqueda de trabajo. Empecé a buscar trabajo más activamente, por lo que en estos días seguramente parte del tiempo "libre" lo use para buscar activamente, sacrificando parte de estudio, aunque quiero mantener al menos una hora diaria
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** 
+https://www.kaggle.com/learn/intro-to-sql

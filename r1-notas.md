@@ -423,3 +423,62 @@ plt.annotate('Possible outlier', xy=(46,0.030), xytext=(189,0.0070), fontsize=12
 
 página útil sobre diferentes formas de tokenization
 https://www.analyticsvidhya.com/blog/2019/07/how-get-started-nlp-6-unique-ways-perform-tokenization/#:~:text=Tokenization%20is%20essentially%20splitting%20a,smaller%20units%20are%20called%20tokens.&text=The%20tokens%20could%20be%20words%2C%20numbers%20or%20punctuation%20marks.
+
+
+### R1D85
+
+- Generar tablas y DataFrames desde bigData con SQL bigquery
+
+from google.cloud import bigquery
+
+
+client = bigquery.Client() : *Crear un objeto "Client" que contendrá los proyectos y las conexiones con el servicio BigQuery*
+
+**Cada dataset está contenido en un projecto (ej: bigquery-public-data)**
+**Construct a reference to the "hacker_news" dataset**
+dataset_ref = client.dataset("hacker_news", project="bigquery-public-data")
+**API request - fetch the dataset**
+dataset = client.get_dataset(dataset_ref)
+**List all the tables in the "hacker_news" dataset**
+tables = list(client.list_tables(dataset))
+**Print names of all tables in the dataset (there are four!)**
+for table in tables:  
+    print(table.table_id)
+**Construct a reference to the "full" table**
+table_ref = dataset_ref.table("full")
+**API request - fetch the table**
+table = client.get_table(table_ref)
+**Table Schema: Estructura de la tabla**
+**Print information on all the columns in the "full" table in the "hacker_news" dataset**
+table.schema
+**A las columnas también se les llama campos (fields)**
+**Preview the first five lines of the "full" table y las convierte a un DataFrame de pandas**
+**Se puede también seleccionar algunas columnas, con selected_fields=table.schema[:1] por ejemplo para la primer columna**
+client.list_rows(table, max_results=5).to_dataframe() 
+
+- SQL queries
+    - query = """
+            SELECT *columna*,*columna2*  : agregar DISTICT si se quiere obtener los valores no repetidos
+            FROM *`dirección tabla`*  : ejemplo. `bigquery-public-data.openaq.global_air_quality`
+            WHERE *condición*
+    - query = """
+            SELECT COUNT(*columna*/*1*) AS *nombreColumna*  : o SUM(), AVG(), MIN(), and MAX(). Da el resultado como una nueva columna con alias pasado. Se puede poner COUNT(1) como convención para contar las filas.
+            FROM *`dirección tabla`*
+            GROUP BY *columna*  : Agrupa por valores únicos la columna para usar una función de aggregate en el SELECT
+            HAVING AGGFUNC(*columna*) *condición (ej: >1)*   : Si se agrega esto, da una condición para mostrar parte del resultado GROUP BY
+            ORDER BY *columna* : Para ordenar los resultados según alguna columna de forma ascendiente, si se agrega DESC, será de forma descendiente
+    - query = """
+            SELECT EXTRACT(DAY from *columna con Fechas*) AS Day   : Genera una columna con el día sacado de la fecha con tipo DATE o DATEIME (formato aaaa-mm-dd). (Doc: https://cloud.google.com/bigquery/docs/reference/legacy-sql#datetimefunctions)
+            FROM *`dirección tabla`*     
+
+- query_job = client.query(query)  : Para establecer la query.
+- df = query_job.to_dataframe()  : Corro la query y genero un df con los resultados
+- dry_run_config = bigquery.QueryJobConfig(dry_run=True)
+  dry_run_query_job = client.query(query, job_config=dry_run_config)  : Estas dos líneas sirven para saber cuantos bytes procesará la query (cuidado con el límite de 3TB en kaggle!)
+- safe_config = bigquery.QueryJobConfig(maximum_bytes_billed={número máximo de bytes}})
+  safe_query_job = client.query(query, job_config=safe_config) : Corta la cantidad de bytes a procesar por la query y luego corre la query con esa config (si lo excede, tira error)
+- WHERE column_name BETWEEN value1 AND value2 : Para seleccionar sólo los valores que estén dentro de un rango (incluye los bordes)
+
+
+
+
