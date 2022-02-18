@@ -469,7 +469,26 @@ client.list_rows(table, max_results=5).to_dataframe()
             ORDER BY *columna* : Para ordenar los resultados según alguna columna de forma ascendiente, si se agrega DESC, será de forma descendiente
     - query = """
             SELECT EXTRACT(DAY from *columna con Fechas*) AS Day   : Genera una columna con el día sacado de la fecha con tipo DATE o DATEIME (formato aaaa-mm-dd). (Doc: https://cloud.google.com/bigquery/docs/reference/legacy-sql#datetimefunctions)
-            FROM *`dirección tabla`*     
+            FROM *`dirección tabla`*
+    - query = """
+            WITH CTE AS
+            (
+                SELECT EXTRACT(HOUR FROM trip_start_timestamp) AS hour_of_day,
+                        trip_miles,
+                        trip_seconds
+                FROM `bigquery-public-data.chicago_taxi_trips.taxi_trips`
+                WHERE trip_start_timestamp > '2017-01-01' AND
+                        trip_start_timestamp < '2017-07-01' AND
+                        trip_seconds > 0 AND
+                        trip_miles > 0
+            )
+            SELECT hour_of_day,
+                    COUNT(1) AS num_trips,
+                    3600 * SUM(trip_miles) / SUM(trip_seconds) AS avg_mph
+            FROM CTE
+            GROUP BY hour_of_day
+            ORDER BY hour_of_day
+            """
 
 - query_job = client.query(query)  : Para establecer la query.
 - df = query_job.to_dataframe()  : Corro la query y genero un df con los resultados
@@ -480,5 +499,7 @@ client.list_rows(table, max_results=5).to_dataframe()
 - WHERE column_name BETWEEN value1 AND value2 : Para seleccionar sólo los valores que estén dentro de un rango (incluye los bordes)
 
 
+### R1D86
 
-
+- CTE: Common table expressions. Expresiones con WITH... AS que contienen una tabal temporal que se retorna dentro de la query
+- WHERE *columna* LIKE '%textoABuscar% : Para filtrar sólo las filas cuya columna contenga la parte del texto que estoy poniendo.
