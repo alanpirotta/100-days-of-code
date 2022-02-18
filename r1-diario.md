@@ -1296,3 +1296,22 @@ https://github.com/alanpirotta/kaggleAnalysis
 
 **Certificación en proceso** 
 https://www.kaggle.com/learn/intro-to-sql
+
+### R1D86
+**Progreso**:  
+2 horas.
+Finalización Curso Intro de SQL de Kaggle 
+
+**Conflictos:** 
+Ninguno
+
+**Reflexiones:** 
+Mejoré un poco mi linkedIn y el CV.
+Mañana depende el tiempo que tenga, comenzaré el curso de SQL avanzado, o modificaré el proyecto pendiente ese.
+
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** 
+https://www.kaggle.com/learn/intro-to-sql
