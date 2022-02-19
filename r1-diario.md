@@ -1306,7 +1306,7 @@ Finalización Curso Intro de SQL de Kaggle
 Ninguno
 
 **Reflexiones:** 
-Mejoré un poco mi linkedIn y el CV.
+También Mejoré un poco mi linkedIn y el CV.
 Mañana depende el tiempo que tenga, comenzaré el curso de SQL avanzado, o modificaré el proyecto pendiente ese.
 
 
@@ -1315,3 +1315,25 @@ https://github.com/alanpirotta/kaggleAnalysis
 
 **Certificación en proceso** 
 https://www.kaggle.com/learn/intro-to-sql
+
+### R1D87
+**Progreso**:  
+4.5 horas.
+Me puse a corregir el feature engineering del 4to proyecto del curso de ML de freeCodeCamp para que de un resultado más correcto. Me faltó crear el pipeline y un modelo para que funcione el testeo que te pedía el ejercicio.
+También volví a ver un poco más de estadística, refrescando sobre distribuciones, residuos y cuadrados mínimos.
+
+**Conflictos:** 
+Al querer convertir el df creado a dataset con tfdf.keras.pd_dataframe_to_tf_dataset, me tira el error "TypeError: argument of type 'int' is not iterable". 
+Lo único que tenía como int eran los nombres de las columnas, pensé que con "fix_feature_names = True" lo solucionaría, pero siguió fallando. 
+
+**Reflexiones:** 
+Una vez que me senté no me tomé ningún recreo. Pasé de extremo de costarme mucho sentarme porque estaba muy distraído, a estar completamente concentrado apenas empecé. Me sirvió, pero cua ndo corté me sentí mucho más agotado, de lo normal.
+Lo que hice hoy me pareció algo más útil, la teoría que estuve repasando y aprendiendo los últimos tiempos me está haciendo entender mucho más que estoy haciendo y para qué. Por ejemplo crear las sparse matrices con las columnas categóricas para no generar desbalance como pasa si hago solo label encoding.
+No se si fue la mejor idea probar otras formas de realizar el modelo en vez de usar capas (layers) como obviamente pretendía el ejercicio por las librerías que importaba, pero logré un resultado bastante bueno en su momento (incluso eliminando la columna region para que no tenga el conflicto del error por mal feature engineering), y aprendí más sobre tensorFlow y sus diferente opciones.
+
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/freecodecamp_certif
+https://colab.research.google.com/drive/1jehtkHltYujk3CpMGm2gp0Xwq1DFCjLb?usp=sharing
+
+**Certificación en proceso** 

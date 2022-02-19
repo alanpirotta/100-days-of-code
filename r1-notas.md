@@ -503,3 +503,56 @@ client.list_rows(table, max_results=5).to_dataframe()
 
 - CTE: Common table expressions. Expresiones con WITH... AS que contienen una tabal temporal que se retorna dentro de la query
 - WHERE *columna* LIKE '%textoABuscar% : Para filtrar sólo las filas cuya columna contenga la parte del texto que estoy poniendo.
+
+
+### R1D87
+
+Se puede conseguir la sparse matrix para el modelo con un dummy = pd.get_dummies(dataset['columna']), pero tiene varias complicaciones, como que no es tan reproducible.
+One hot encoding:
+
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer 
+
+Alternativa 1:
+
+encoder = OneHotEncoder() 
+encoder.fit(train_df[['columna']])
+matrix = encoder.transform(train_df[['columna']]).todense()
+df = pd.DataFrame(matrix, columns=encoder.categories_, index=train_df[['columna']].index)
+
+Alternativa 2:
+one_hot_encode = ColumnTransformer ([
+                                     (
+                                      'one_hot_encode',   #Transformation name
+                                      OneHotEncoder(sparse=False),   #transformer to use
+                                      ['columna1', 'columna2', 'columna3']    #features to transform
+                                     )
+                  ])
+one_hot_encode.fit(train_df)
+matrix = one_hot_encode.transform(train_df)
+df = pd.DataFrame(matrix, index=train_df.index)
+
+
+Scaling:
+
+Alternativa 1:
+
+from sklearn.preprocessing import StandardScaler, RobustScaler, MinMaxScaler, MaxAbsScaler
+scaler = MaxAbsScaler()
+scaler.fit(train_df[['columna']])
+matrix = scaler.transform(train_df[['columna']])
+pd.DataFrame({'original': train_df['columna'].values, 'scaled': matrix.squeeze()}).describe()   #Para comparar original y escalada
+df = pd.DataFrame(matrix, columns=['nombreColEscalada'], index=train_df[['columna']].index)
+
+Alternativa 2:
+
+scaler_encoding = ColumnTransformer([
+                            (
+                             'MinMaxScaler_encoding',
+                             MinMaxScaler(),
+                             ['columna1', 'columna2']
+                            )
+          ])
+scaler_encoding.fit(train_df)
+matrix = scaler_encoding.transform(train_df)
+df = pd.DataFrame(matrix, index=train_df.index)
