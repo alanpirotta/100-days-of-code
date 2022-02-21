@@ -556,3 +556,55 @@ scaler_encoding = ColumnTransformer([
 scaler_encoding.fit(train_df)
 matrix = scaler_encoding.transform(train_df)
 df = pd.DataFrame(matrix, index=train_df.index)
+
+
+### R1D88
+
+más queries de SQL:
+
+
+
+- FROM *Primera tabla* AS p
+  *X* JOIN *Segunda tabla* AS s 
+    ON s.primary_key = p.foreign_key
+  La X puede ser (considerar que cuando no hay match, traerán datos con NULL):
+        - INNER: Trae sólo los datos que estén relacionados entre ambas tablas.
+        - LEFT: Trae todos los datos de la primer tabla y sólo los de la segunda tabla que estén relacionados con la primera.
+        - RIGHT: Trae todos los datos de la segunda tabla, y sólo los de la primera tabla que estén relacionados.
+        - FULL: Trae todos los datos de las dos tablas, tengan match de key o no.
+
+- SELECT *columnatabla1* FROM *`dirección1`*
+  UNION ALL  : Si es UNION DISTICT sólo trae los valores únicos, descarta los duplicados
+  SELECT *columnatabla2* FROM *`dirección2`*
+Esto une ambas tablas verticalmente, tienen que tener el mismo datatype
+- SELECT MIN(TIMESTAMP_DIFF(*segunda columna*, *Primer columna*, SECOND)) as time_passed  : Devuelve los segundos pasados entre las fechas de las dos columnas.
+
+- Analytic Functions:
+documentación útil: https://cloud.google.com/bigquery/docs/reference/standard-sql/analytic-function-concepts
+- Ej:
+    SELECT *,
+           SUM(*Columna a realizar suma*) 
+                OVER (
+                        PARTITION BY *columna sobre la que se divide la función*
+                        ORDER BY *Columna a ordenar, por ejemplo una de fechas*
+                        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+                        ) AS *Nombre columna generada*
+
+
+- Window frame: Ventana de filas donde va a ocurrir lo que pida la función, luego de particionar en grupos y ordenar. Ejemplos:
+    ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW: Todas hasta la actual. Predeterminada.
+    ROWS BETWEEN 1 PRECEDING AND CURRENT ROW - La fila anterior de la tabla y la actual.
+    ROWS BETWEEN 3 PRECEDING AND 1 FOLLOWING - las últimas 3 filas, la actual, y la siguiente.
+    ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING - Todas las filas de la partición.
+
+Tipos de funciones analíticas:
+1) Analytic aggregate functions
+MIN() (or MAX()) - Retorna el mínimo o máximo de los inputs
+AVG() (or SUM()) - Retorna el promedio o suma de los inputs
+COUNT() - Retorna el número de files de los inputs
+2) Analytic navigation functions
+FIRST_VALUE() (or LAST_VALUE()) - Retorna el primer o último de los inputs
+LEAD() (and LAG()) - Retorna el siguiente o anterior de los inputs (fila siguiente o anterior)
+3) Analytic numbering functions
+ROW_NUMBER() - Retorna el orden en que aparece de los inputs
+RANK() - Todas las filas ordenadas con el mismo valor reciven el mismo rango, y luego las siguiente calculan el rango según la cantidad de filas con el rango anterior.

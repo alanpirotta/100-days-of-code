@@ -1337,3 +1337,25 @@ https://github.com/alanpirotta/freecodecamp_certif
 https://colab.research.google.com/drive/1jehtkHltYujk3CpMGm2gp0Xwq1DFCjLb?usp=sharing
 
 **Certificación en proceso** 
+
+
+### R1D88
+**Progreso**:  
+3 horas.
+Realicé el modelo predictivo alterno para el cuarto proyecto de ML de FreeCodeCamp, luego del feature engineering que hice ayer. Cumplió los requisitos, pero tiene una falla muy grande en la forma en que predice. (funciona en valores extremos, y falla completamente en los centrales).
+Realicé el 50% el curso de kaggle de advanced SQL
+
+**Conflictos:** 
+Me falta bastante teoría y práctica para saber automáticamente que hiperparámetros modificar según los resultados que estoy viendo  
+
+**Reflexiones:** 
+Desde que abrí la posibilidad de conseguir trabajo de esto, vengo un poco desanimado, en parte por no poder organizar el poco tiempo disponible que tengo para agregar la búsqueda al estudio, y en parte porque me enfrenté finalmente a la posibilidad de no saber lo suficiente. Se que esto no es así, porque tengo la base de todo lo que necesito, y luego es aplicarla específiamente a lo que necesite con un poco de investigación específica, y lo que estoy buscando no es algo que requiera demasiada responsabilidad como mi actual trabajo, porque la intención es terminar de capacitarme con el trabajo y mientras sigo estudiando oor mi cuenta. 
+Esto me está afectando porque es la primera vez que me esfuerzo a este nivel en algo académico, y el hecho de que mientras más estudio más me gusta es un aliciente y al mismo tiempo aumenta mi ansiedad, al crecer el riesgo y las ganas de conseguir un trabajo en un ambiente donde aprender más y poder utilizar lo que aprendo.
+Específicamente de lo aprendido hoy, me volvió la duda de como hacer la relación de estudio entre teórico/práctico, porque cuando hago mucho proyecto, encuentro la forma que salga, pero me doy cuenta que muchas veces no conozco al 100% por qué funciona, y eso puede generar problemas en un ambiente laboral. Esto lo compensaría preguntando a superiores probablemente en un ambiente labora, porque mi exp al menos me hace dar cuenta de patrones y de que partes no están funcionando, el problema es no encontrar la razón detrás.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/freecodecamp_certif
+https://colab.research.google.com/drive/1jehtkHltYujk3CpMGm2gp0Xwq1DFCjLb?usp=sharing
+
+**Certificación en proceso** 
+https://www.kaggle.com/learn/advanced-sql
