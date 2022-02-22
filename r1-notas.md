@@ -560,9 +560,7 @@ df = pd.DataFrame(matrix, index=train_df.index)
 
 ### R1D88
 
-más queries de SQL:
-
-
+Más queries de SQL:
 
 - FROM *Primera tabla* AS p
   *X* JOIN *Segunda tabla* AS s 
@@ -608,3 +606,21 @@ LEAD() (and LAG()) - Retorna el siguiente o anterior de los inputs (fila siguien
 3) Analytic numbering functions
 ROW_NUMBER() - Retorna el orden en que aparece de los inputs
 RANK() - Todas las filas ordenadas con el mismo valor reciven el mismo rango, y luego las siguiente calculan el rango según la cantidad de filas con el rango anterior.
+
+### R1D89
+
+- NESTED columns: Columnas en una tabla de BigQuery que contienen un objeto con más de una característica. Son tipo STRUCT (o tipo RECORD) con más datos dentro con sus propios tipos. Se llama al dato específico seleccionando la columna y el dato (ej: *columna.dato* )
+- REPEATED columns: Columna que acepta más de un objeto (dato) dentro de cada fila. El modo de la columna en el schema aparece como REPEATEAD. Cada entrada (fila) en una columna estas es un ARRAY. Para generar una query con esto, se debe poner debajo del FROM, UNNEST(*columna*) AS XXXX.
+
+Ejemplo de uso de nested y repeated:
+query = """
+        SELECT l.key AS nombre1,   : Key sería el nombre de la variable del objeto buscado
+            COUNT(*) AS numbre2
+        FROM `bigquery-public-data.github_repos.languages`,
+            UNNEST(columnaRepeated) AS l
+        GROUP BY nombre1
+        ORDER BY nombre2 DESC
+        """
+
+- print(table.schema[X]) : Imprime el schema de la columna X de la tabla.
+

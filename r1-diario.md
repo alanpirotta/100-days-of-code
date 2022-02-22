@@ -1356,6 +1356,28 @@ Específicamente de lo aprendido hoy, me volvió la duda de como hacer la relaci
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/freecodecamp_certif
 https://colab.research.google.com/drive/1jehtkHltYujk3CpMGm2gp0Xwq1DFCjLb?usp=sharing
+https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** 
+https://www.kaggle.com/learn/advanced-sql
+
+### R1D89
+**Progreso**:  
+2 horas.
+25% del curso de advanced SQL
+Investigué un poco más profundo sobre Power BI.
+
+**Conflictos:** 
+Fuera de la organización del tiempo, ninguno.
+
+**Reflexiones:** 
+No me llama tanto la atención SQL como otros lenguajes, pero la satisfacción de lograr una query compleja se siente demasiado bien. 
+En la investigación sobre power BI pude confirmar que mis conocimientos de power query y power pivot son útiles para esto, y que la forma de investigar para esos temas sería muy similar que para esto. No me pareció tan complejo y se que puedo obtener los conocimientos necesarios mientras trabajo en eso, pero tendré que poder comunicarlo correctamente en una entrevista.
+Me está costando organizar los tiempos de trabajo, estudio, busqueda de trabajo y descanso sin perder demasiado de ninguno al agregar la búsqueda. Puedo manejarlo y organizarme pero si se extiende mucho tiempo voy a tener que ver como hacer para regular también con las otras partes de mi vida. Cuando termine los 100 días justo empieza el curso de Digital House, asíque ahi me reorganizaré bien.
+Por ahora como objetivo tengo antes de terminar los 100 días, arrancar y probar algún dataset de Kaggle que no sea por los cursos, aunque no llegue al top.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis
 
 **Certificación en proceso** 
 https://www.kaggle.com/learn/advanced-sql
