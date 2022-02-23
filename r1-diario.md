@@ -1381,3 +1381,22 @@ https://github.com/alanpirotta/kaggleAnalysis
 
 **Certificación en proceso** 
 https://www.kaggle.com/learn/advanced-sql
+
+### R1D90
+**Progreso**:  
+1 hora.
+Fin del curso de advanced SQL
+
+**Conflictos:** 
+Poco tiempo disponible
+
+**Reflexiones:** 
+Terminé el curso de SQL. La verdad que me gustó y me dio ganas de buscar algunos temas más complejos que nunca necesité usar hasta ahora en el trabajo. 
+Los siguientes días tengo menos tiempo, pero voy a buscar alguna competencia de Kaggle para probar bien como funcionan, como manejarse, y emepzar a meterme más en ese mundo que me resulta fascinante. Estuve viendo un poco, y me parece que el Tabular Playground Series - Feb 2022 es un buen lugar para empezar, aunque le falten sólo 6 días (en Marzo habrá otro). Si luego no puedo ahcerlo por alguna razón, veré de probar un poco más a fondo el de los precios de casas, que es básico pero muy buena práctica en mi nivel actual.
+También haré probablemente los demás cursos que me faltan de kaggle, me gusta mucho como están hechos, e incluso las cosas que ya se me sirven mucho para practicar.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggleAnalysis
+
+**Certificación en proceso** 
+https://www.kaggle.com/learn/advanced-sql
