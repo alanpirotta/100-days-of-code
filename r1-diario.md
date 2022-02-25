@@ -1400,3 +1400,22 @@ https://github.com/alanpirotta/kaggleAnalysis
 
 **Certificación en proceso** 
 https://www.kaggle.com/learn/advanced-sql
+
+### R1D91
+**Progreso**:  
+2 horas.
+Clases de práctica de power BI y estadística
+Comencé la competencia de tabular data de kaggle de Febrero. Descubrí y configuré la api de kaggle.
+
+**Conflictos:** 
+llegué muy tarde a casa.
+
+**Reflexiones:** 
+Llegué tan tarde que dudé de sentarme, pero apenas lo hice supe que era la decisión correcta. Voy a tomarme tranquilo el tema de la competencia, ir aprendiendo algunas cosas que no usé hasta ahora y profundizando en las que si. 
+Hoy pude aprender a usar la API y redescubrí varias formas de traer datos y descomprimirlos.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggle_tabular_playground
+
+**Ccompetencia en proceso** 
+https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview

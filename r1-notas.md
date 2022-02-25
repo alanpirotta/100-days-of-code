@@ -641,3 +641,23 @@ def show_time_to_run(query):
     query_result = client.query(query, job_config=time_config).result()
     end = time()
     print('Time to run: {} seconds'.format(round(end-start, 3)))
+
+### R1D91
+
+- Instalación de la API de Kaggle
+    https://github.com/Kaggle/kaggle-api
+
+    pip install kaggle o conda install -c conda-forge kaggle
+    poner "kaggle" luego de instalado, y se generará la carpeta .kaggle, donde se pone el token (archivo .json) sacado del usuario de kaggle.
+
+    ejemplo de uso:
+    !kaggle competitions list : Lista todas las competiciones
+    Se puede sacar el código de cad dataset o competición para descargar directo.
+
+- Descomprimir archivos descargados:
+    import zipfile
+    import os
+    with zipfile.ZipFile("archivo.zip", "r") as zip_ref:                # La r es de "read"
+        zip_ref.extractall(r"ubicación donde descomprimir")
+    os.remove("archivo.zip")
+
