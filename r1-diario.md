@@ -1419,3 +1419,23 @@ https://github.com/alanpirotta/kaggle_tabular_playground
 
 **Ccompetencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
+
+### R1D92
+**Progreso**:  
+3 horas.
+Clase de estadística (práctica de probabilidades, z-score)
+Creación de archivo .gitignore
+Análisis inicial del dataset del tabular_playground de Febrero.
+
+**Conflictos:** 
+Me costó un poco arrancar hasta que logré entender un poco mejor el dataset (no había utilizado nunca uno con tantas columnas). Necesito más práctica para hacer el análisis inicial de información casi automático.
+
+**Reflexiones:** 
+Me está costando cada vez más sentarme. Creo que se debe a que estoy terminando el reto, además de la organización del tiempo con el trabajo y la búsqueda laboral. Decidí no arrancar otro apenas termine, sino que esperaré un tiempo, quizás hasta estabilizarme en el curso de digital House que voy a empezar. Por suerte (y algo que sigue confirmando que me encanta esto) apenas me siento y empiezo, lo disfruto mucho y cada cosa que leo, aprendo, consigo me genera mucho bienestar.
+Con respecto a la competición que estoy haciendo, me está gustando mucho el reto, mañana veré de hacer un modelo básico para obtener un resultado y hacer al menos una presentación en esta competencia antes de que termine (aunque no será demasiado buena).
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggle_tabular_playground
+
+**Ccompetencia en proceso** 
+https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview

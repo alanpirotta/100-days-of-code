@@ -648,7 +648,7 @@ def show_time_to_run(query):
     https://github.com/Kaggle/kaggle-api
 
     pip install kaggle o conda install -c conda-forge kaggle
-    poner "kaggle" luego de instalado, y se generará la carpeta .kaggle, donde se pone el token (archivo .json) sacado del usuario de kaggle.
+    poner "kaggle" en consola luego de instalado, y se generará la carpeta .kaggle, donde se pone el token (archivo .json) sacado del usuario de kaggle.
 
     ejemplo de uso:
     !kaggle competitions list : Lista todas las competiciones
@@ -661,3 +661,29 @@ def show_time_to_run(query):
         zip_ref.extractall(r"ubicación donde descomprimir")
     os.remove("archivo.zip")
 
+### R1D92
+
+Gitignore
+
+https://docs.github.com/es/get-started/getting-started-with-git/ignoring-files
+https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
+https://github.com/github/gitignore listado de ejemplos de TODO
+Ej de .gitignore: https://gist.github.com/octocat/9257657
+
+
+- touch .gitignore : Desde consola ubicandote en el root del repo. Crea el archivo .gitignore
+- git reset --soft HEAD~1 : Resetea el último commit local (si se cambia el 1 se puede resetear varios)
+- git log origin/main..HEAD : Muestra cuales son los commit hechos localmente por adelante del repo en gihthub
+- git rm --cached *.csv : Elimina del cache de commits los archivos .csv (cambiar por otro tipo). Esto sirve se se realizó un commit previo y luego se generó el .gitignore
+
+- Para eliminar las filas que tengan algún valor outlier en alguna de sus columnas. Considero los outliers como valores con zscore >= 3
+    from scipy import stats
+    train_df_no_outliers = train_df[(np.abs(stats.zscore(train_df)) < 3).all(axis=1)]  
+
+- Para comprobar que un dataset ya está descargado:
+    import pathlib
+    file = pathlib.Path("folder/file")
+    if file.exists():
+        print('Files already exists')
+    else:
+        print('Creating the file')
