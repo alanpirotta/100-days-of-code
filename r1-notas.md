@@ -1,13 +1,10 @@
 **Comienzo este archivo en el día 44. Me pareció una buena forma de rastrear el proceso, tomar notas y poder encontrarlas después**
 
 ### A averiguar
-*librería from pathlib import Path*
 Tengo que averiguar bien que significa cuando pongo "add ." en git y me tira esto:
 *LF will be replaced by CRLF in ...* 
 *The file will have its original line endings in your working directory*
 
-### Pendientes
-* Averigar como poner las labels del eje x a 45° en subplots de seaborn
 
 ### hotkeys jupyter notebook
 * esc/enter: entrar y salir de modos
@@ -24,6 +21,20 @@ Tengo que averiguar bien que significa cuando pongo "add ." en git y me tira est
 - Graficacion de datos más complejos con los datos limpios.
 - Conclusiones.
 - Estética del informe.
+
+### Listado de modelos de Machine Learning y su uso:
+- Clasificación:
+    - LogisticRegression()
+    - Support Vector Machine / SVM
+    - k-Nearest Neighbor() / KNN
+    - Naïve Bayes
+    - Decision trees
+
+- Regresión:
+    - LinearRegression()
+
+- Cluster:
+    - NearesNeighbor()
 
 ### R1D44
 *pandas en kaggle*
@@ -687,3 +698,19 @@ Ej de .gitignore: https://gist.github.com/octocat/9257657
         print('Files already exists')
     else:
         print('Creating the file')
+
+### R1D93
+
+- Stratified= : Se puede usar en el train_test_split para que la separación la haga manteniendo la relación de la columna que se pase. Esta columna será la que se considere el target. Sirve para datasets desbalanceado (imbalanced)
+
+- Error en regresión logística:
+ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+**Respuesta útiles:**
+https://stackoverflow.com/questions/62658215/convergencewarning-lbfgs-failed-to-converge-status-1-stop-total-no-of-iter
+
+- Se puede aumentar el número de iteraciones con LogisticRegression(solver='lbfgs', max_iter=XXX) con XXX > 100
+- Se puede cambiar el solver del lbfgs predeterminado
+    Diferentes optimizadores para regresión logística:
+    https://stackoverflow.com/questions/38640109/logistic-regression-python-solvers-definitions/52388406#52388406

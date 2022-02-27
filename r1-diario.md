@@ -1439,3 +1439,20 @@ https://github.com/alanpirotta/kaggle_tabular_playground
 
 **Ccompetencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
+
+### R1D93
+**Progreso**:  
+1 hora
+Modelado inicial del dataset del tabular_playground de Febrero.
+
+**Conflictos:** 
+Ninguno
+
+**Reflexiones:** 
+Realicé mi primer submit de una competencia fuera de las de tutoriales! El score no fue muy bueno (0.578) pero ya sabía que sería aprox así, ya que sólo realicé un feature engineering superficial y un modelado simple. En los siguientes días iré puliendo esto, también leeré un poco el foro para ver como fueron encarando.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggle_tabular_playground
+
+**Ccompetencia en proceso** 
+https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
