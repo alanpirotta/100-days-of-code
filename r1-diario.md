@@ -1456,3 +1456,31 @@ https://github.com/alanpirotta/kaggle_tabular_playground
 
 **Ccompetencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
+
+### R1D94
+**Progreso**:  
+2 horas
+Competencia tabular_playground de Febrero:
+- Mejora de análisis inicial de datos. 
+- Pruebas con Naive-Bayes y RandomForestClassifier
+
+**Conflictos:** 
+Reinicié varias veces el notebook entero olvidándome comentar la celda con el submit a Kaggle, con lo cual consumí el total que tenía para el día antes de mandar algunos mejores
+
+**Reflexiones:** 
+Hoy era el último día de la competencia. No pude hacer mucho, pero generé un buen modelo para analizar a futuro siguientes situaciones similares, y me sirvió mucho como práctica de agarrar algo completamente desconocido desde cero. Con los otros modelos llegué a 0.61558 de score, posiblemente más pero no pude hacer el submit.
+Me gustó mucho participar aunque tuve poco tiempo :)
+Me mandaron también los datos de inicio para el curso de DigitalHouse }
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggle_tabular_playground
+
+**Ccompetencia en proceso** 
+https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
+
+*A hacer en siguientes días*
+
+- Buscar bien que es XGBoost
+- Ordenar y hacer mejores apuntes de teoría y quizás un modelo, respondiendo por ejemplo:
+      - Qué tipos de modelos sirven para cada tipo de aprendizaje
+      - Pasos comunes de hacer al comenzar un análisis de datos, dependiendo desde donde vengan
