@@ -1470,7 +1470,7 @@ Reinicié varias veces el notebook entero olvidándome comentar la celda con el 
 **Reflexiones:** 
 Hoy era el último día de la competencia. No pude hacer mucho, pero generé un buen modelo para analizar a futuro siguientes situaciones similares, y me sirvió mucho como práctica de agarrar algo completamente desconocido desde cero. Con los otros modelos llegué a 0.61558 de score, posiblemente más pero no pude hacer el submit.
 Me gustó mucho participar aunque tuve poco tiempo :)
-Me mandaron también los datos de inicio para el curso de DigitalHouse }
+Me mandaron también los datos de inicio para el curso de DigitalHouse 
 
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggle_tabular_playground
@@ -1478,9 +1478,31 @@ https://github.com/alanpirotta/kaggle_tabular_playground
 **Ccompetencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
 
-*A hacer en siguientes días*
 
-- Buscar bien que es XGBoost
+
+
+### R1D95
+**Progreso**:  
+2 horas
+Competencia tabular_playground de Febrero:
+- Investigación de otros notebooks, puntos a considerar y como encararon esta competición.
+- Mejora de análisis exploratorio de datos. 
+- Late submission, llegaba a 0,70 de score. 
+
+**Conflictos:** 
+Estoy muy agotado mentalmente con el trabajo, la búsqueda y el estudio. Necesito un par de días de distraerme con alguna otra cosa. La semana que viene lo haré.
+
+**Reflexiones:** 
+Me resultó muy intersante e informativo ver diferentes approachs de la gente para la competencia, también como se fueron ayudando y optimizando. También me sentí por vigésima vez desde que empecé a estudiar, que me faltan millones de conceptos por aprender. Este sentimiento es agridulce, ya que me satura un poco la cantidad de información y la sensación de nunca llegar a saber todo lo que necesito, pero también me impulsa mucho de que siempre haya algo nuevo que aprender y mejorar a la vuelta de la esquina.
+Me dieron muchas ganas de empezar la competencia de este mes, pero esta semana la voy a utilizar para reforzar conceptos y ordenar mis apuntes e información. Quizás la agarro para generar un modelo de time series, pero no voy a dedicarle demasiado tiempo hasta mitad de mes.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggle_tabular_playground
+
+**Ccompetencia en proceso** 
+https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
+
+**A hacer en los siguientes días**
 - Ordenar y hacer mejores apuntes de teoría y quizás un modelo, respondiendo por ejemplo:
       - Qué tipos de modelos sirven para cada tipo de aprendizaje
       - Pasos comunes de hacer al comenzar un análisis de datos, dependiendo desde donde vengan

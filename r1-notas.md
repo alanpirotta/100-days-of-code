@@ -141,10 +141,9 @@ for año in años:
 - Para graficar varios graficos con una celda, se puede poner el código del primer gráfico, después un plt.show(), después el siguiente código, otro plt.show()... etc
 - fig, axs = plt.subplots(nfilas, n°col, figsize=(16,10)): Para crear varios gráfico en la misma celda, sin separación. **no logré averiguar bien como rotar 45° las label del eje x**
 
-#### Falta averiguar la próxima vez, como encontrar índices duplicados, el DF del 2020 me tira error por eso. Con años_df[2020].index.is_unique lo confirmo, y dice False
-
 ### R1D56
 
+- df.duplicated().sum() : Para chequear cuantas filas están duplicadas en el DF
 Chequeo de duplicados en index. (aplica para columnas que no sean índice)
 - df.index.duplicated(): Devuelve un array con True para la segunda aparición de un valor. Si se pone keep='last', el que mantiene (aparece como False) es la última aparición. Si se pone keep=False devuelve con True en todos los valores duplicados. 
 - df = df.drop_duplicates(): Descarta todos los valores duplicados.
@@ -221,13 +220,13 @@ Quedé en que puedo agrupar por año_mes (o multindex con columnas año y mes), 
 
 ### R1D64
 
-- sns.heatmap(data, annot=True, fmt=''): el fmt es el formato de las anotaciones, puede ser por ejemplo '.1f' para mostrar sólo un punto decimal (un punto flotante)
+- sns.heatmap(data, annot=True, fmt='', vmin=, vmax=): el fmt es el formato de las anotaciones, puede ser por ejemplo '.1f' para mostrar sólo un punto decimal (un punto flotante). vmin y vmax es para dar el rango en el que estarán los colores (por ejemplo, de -1 a +1)
 - df.corr(): Genera un DF de correlación útil para realizar el heatmap por ejemplo.
 - Para enmascarar el triángulo superior derecho de un DF/heatmap: 
     - mask = np.zeros_like(corr) : Genera un array con la misma forma que el df 
     - mask[np.triu_indices_from(mask)] = True : Guarda sólo el triángulo superior derecho
     - sns.heatmap(... , mask=mask)
-- Alternativa: mask = np.triu(corr), es más simple
+- Alternativa: mask = np.triu(corr), es más simple. O mask = np.triu(np.ones_like(features_corr, dtype=bool), k=0) 
 - fig=nombrecatplot.fig: Para que acceda al Facetgrid de matplotlib el catplot. Deprecada, se usa figure ahora
 - nombrecatplot.set_ylabels('nombre'): Cambiar el nombre del eje en un gráfico catplot
 
@@ -719,3 +718,42 @@ https://stackoverflow.com/questions/62658215/convergencewarning-lbfgs-failed-to-
 ### R1D94
 
 - df.isnull().sum().any() : Forma alternativa de ver rápido si existen valores nulos. Se complementa con df.isna().sum().value_counts() si se quiere ver cuantos
+
+
+### R1D95
+
+- display(): Reemplazo del print, que muestra los DataFrame correctamente. 
+- %%time : Agregarlo a cada celda al ppio para chequear el tiempo que tarda en correr
+- df.memory_usage() : Devuelve el uso de memoria de cada columna del DF en Bytes.
+- np.finfo(): Los límites de la máquina para cada floating point type.
+
+Ejemplo de como reducir el uso de memoria optimizando dtypes para floats:
+
+display(f'Initial memory usage: {df.memory_usage().sum()/1024**2:.2f}')
+
+def reduce_memory_usage(df):
+    start_mem = df.memory_usage().sum()/1024**2
+    datatypes = ['float16', 'float32', 'float64']
+
+    for col in df.columns[:-1]:     #Si se quiere eliminar la última columna (gralmente el target)
+        for dtp in datatypes:
+            if abs(df[col]).max() <= np.finfo(dtp).max:
+                df[col] = df[col].astype(dtp)
+                break
+
+    end_mem = df.memory_usage().sum()/1024**2
+    reduction = (start_mem - end_mem)*100/start_mem
+    print(f'Mem. usage decreased by {reduction:.2f}% to {end_mem:.2f}')
+    return df
+
+df = reduce_memory_usage(train)
+
+- Cardinality: Número de valores únicos en las features. Por ej: Si tiene muy pocos valores, quizás considerar a esa feature categórica tenga mejores resultados.
+- df.nunique(): Cuenta la cantidad de valores unicos en el eje específicado (axis=0 columnas)
+- df.T.style.background_gradient(cmap='RdYlGn', subset=[]).bar(subset=[]), color='tomato'): Sirve para colorear las celdas según el cmap por los valores. el .bar es para hacer una barra con el color, y el subset es para marcar en qué features se hará.
+
+
+- Eliminar el título del eje X:
+    fig, ax = plt.subplots()
+    ax.set(xlabel=None)
+- sns.despine() : Elimina los bordes del gráfico que no tienen ticks.
