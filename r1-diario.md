@@ -1417,7 +1417,7 @@ Hoy pude aprender a usar la API y redescubrí varias formas de traer datos y des
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggle_tabular_playground
 
-**Ccompetencia en proceso** 
+**Competencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
 
 ### R1D92
@@ -1437,7 +1437,7 @@ Con respecto a la competición que estoy haciendo, me está gustando mucho el re
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggle_tabular_playground
 
-**Ccompetencia en proceso** 
+**Competencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
 
 ### R1D93
@@ -1454,7 +1454,7 @@ Realicé mi primer submit de una competencia fuera de las de tutoriales! El scor
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggle_tabular_playground
 
-**Ccompetencia en proceso** 
+**Competencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
 
 ### R1D94
@@ -1475,7 +1475,7 @@ Me mandaron también los datos de inicio para el curso de DigitalHouse
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggle_tabular_playground
 
-**Ccompetencia en proceso** 
+**Competencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
 
 
@@ -1499,8 +1499,31 @@ Me dieron muchas ganas de empezar la competencia de este mes, pero esta semana l
 **Enlace a mi trabajo:** 
 https://github.com/alanpirotta/kaggle_tabular_playground
 
-**Ccompetencia en proceso** 
+**Competencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
+
+### R1D96
+**Progreso**:  
+No calculé las horas.
+Competencia tabular_playground de Marzo:
+- Creé el notebook con las celdas base para carga de datos y para submissions.
+Exploré un poco el playground de Digital House con la información para el curso.
+*Nota:* Los últimos dos días volví a leer el libro y estuve varias horas con eso.
+
+**Conflictos:** 
+Ninguno
+
+**Reflexiones:** 
+Amo leer! No es algo nuevo, pero hacía mucho que no lograba sentarme a leer, y menos libros de estudio. Apenas lo hice ayer me desestresé y sentí que pude absorber conocimiento como no estaba pudiendo hacer el último tiempo, sorprendiéndome, disfrutando y comprendiendo completamente. Voy a seguir leyendo en los tiempos libres que tengo, creo que es algo que me hace bien, espero que siga así.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggle_tabular_playground
+
+**Libro:**
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+**Competencia en proceso** 
+https://www.kaggle.com/c/tabular-playground-series-mar-2022/overview
 
 **A hacer en los siguientes días**
 - Ordenar y hacer mejores apuntes de teoría y quizás un modelo, respondiendo por ejemplo:
