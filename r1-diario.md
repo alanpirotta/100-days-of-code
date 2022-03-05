@@ -1483,8 +1483,8 @@ https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
 
 ### R1D95
 **Progreso**:  
-2 horas
-Competencia tabular_playground de Febrero:
+2 horas  
+Competencia tabular_playground de Febrero:  
 - Investigación de otros notebooks, puntos a considerar y como encararon esta competición.
 - Mejora de análisis exploratorio de datos. 
 - Late submission, llegaba a 0,70 de score. 
@@ -1493,7 +1493,7 @@ Competencia tabular_playground de Febrero:
 Estoy muy agotado mentalmente con el trabajo, la búsqueda y el estudio. Necesito un par de días de distraerme con alguna otra cosa. La semana que viene lo haré.
 
 **Reflexiones:** 
-Me resultó muy intersante e informativo ver diferentes approachs de la gente para la competencia, también como se fueron ayudando y optimizando. También me sentí por vigésima vez desde que empecé a estudiar, que me faltan millones de conceptos por aprender. Este sentimiento es agridulce, ya que me satura un poco la cantidad de información y la sensación de nunca llegar a saber todo lo que necesito, pero también me impulsa mucho de que siempre haya algo nuevo que aprender y mejorar a la vuelta de la esquina.
+Me resultó muy intersante e informativo ver diferentes approachs de la gente para la competencia, también como se fueron ayudando y optimizando. También me sentí por vigésima vez desde que empecé a estudiar, que me faltan millones de conceptos por aprender. Este sentimiento es agridulce, ya que me satura un poco la cantidad de información y la sensación de nunca llegar a saber todo lo que necesito, pero también me impulsa mucho de que siempre haya algo nuevo que aprender y mejorar a la vuelta de la esquina.  
 Me dieron muchas ganas de empezar la competencia de este mes, pero esta semana la voy a utilizar para reforzar conceptos y ordenar mis apuntes e información. Quizás la agarro para generar un modelo de time series, pero no voy a dedicarle demasiado tiempo hasta mitad de mes.
 
 **Enlace a mi trabajo:** 
@@ -1504,11 +1504,11 @@ https://www.kaggle.com/c/tabular-playground-series-feb-2022/overview
 
 ### R1D96
 **Progreso**:  
-No calculé las horas.
-Competencia tabular_playground de Marzo:
-- Creé el notebook con las celdas base para carga de datos y para submissions.
-Exploré un poco el playground de Digital House con la información para el curso.
-*Nota:* Los últimos dos días volví a leer el libro y estuve varias horas con eso.
+No calculé las horas.  
+Competencia tabular_playground de Marzo:  
+- Creé el notebook con las celdas base para carga de datos y para submissions.  
+Exploré un poco el playground de Digital House con la información para el curso.  
+*Nota:* Los últimos dos días volví a leer el libro y estuve varias horas con eso.  
 
 **Conflictos:** 
 Ninguno
@@ -1525,7 +1525,31 @@ Introduction to machine learning with python: a guide for data scientists - Andr
 **Competencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-mar-2022/overview
 
+### R1D97
+**Progreso**:  
+1.5 horas.  
+Investigué un poco más sobre Markdown, para aprender a usarlo bien y mejorar la calidad visual de mis notebooks.   
+Hice los módulos de introducción del alumno del playground de Digital House.  
+
+**Conflictos:** 
+Ninguno
+
+**Reflexiones:** 
+Estoy aprovechando los últimos días del reto y de antes de iniciar el curso para ordenar un poco la información, cerrar algunas dudas que me quedaron más teóricas, y jugar un poco con los notebooks y modelos. Me parece un buen final del reto para adentrarme en el siguiente paso que será el curso de Digital House y el intentar iniciarme laboralmente como científico de datos. 
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/kaggle_tabular_playground
+
+**Libro:**
+Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/escritura-programadores
+
+**Competencia en proceso** 
+https://www.kaggle.com/c/tabular-playground-series-mar-2022/overview
+
 **A hacer en los siguientes días**
 - Ordenar y hacer mejores apuntes de teoría y quizás un modelo, respondiendo por ejemplo:
       - Qué tipos de modelos sirven para cada tipo de aprendizaje
-      - Pasos comunes de hacer al comenzar un análisis de datos, dependiendo desde donde vengan
+      - Pasos comunes de hacer al comenzar un análisis de datos, dependiendo desde donde vengan y con qué objetivo.

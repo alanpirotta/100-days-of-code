@@ -757,3 +757,20 @@ df = reduce_memory_usage(train)
     fig, ax = plt.subplots()
     ax.set(xlabel=None)
 - sns.despine() : Elimina los bordes del gráfico que no tienen ticks.
+
+### R1D97
+
+**Markdown**
+##### Usar de 1 a 6 # para títulos (Este es con 5)
+Doble barra espaciadora y enter hace salto de línea simple
+Doble enter hace salto de línea con espacio
+- Guión (-) genera listas
+*Asteriscos simples es cursiva*
+**Asteriscos dobles, negrita**
+***Asteriscos triples es cursiva y negrita***
+`[](link)` para links
+`![alt text](dirección de imagen) para cargar una imagen.`
+Se puede usar HTML, como `<span style='color:#ffd700'></span>`
+Encerrar en ` es para mostrar la línea de código como texto
+Encerrar entre ``` genera bloque de código
+> Empezar con > para citas. Se pueden anidar
