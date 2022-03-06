@@ -760,17 +760,29 @@ df = reduce_memory_usage(train)
 
 ### R1D97
 
-**Markdown**
-##### Usar de 1 a 6 # para títulos (Este es con 5)
-Doble barra espaciadora y enter hace salto de línea simple
+**Markdown**  
+
+ctrl+k y depsués v para activar el preview en vsCode.
+### Usar de 1 a 6 # para títulos (Este es con 3)
+Doble barra espaciadora y enter hace salto de línea simple  
 Doble enter hace salto de línea con espacio
+
 - Guión (-) genera listas
-*Asteriscos simples es cursiva*
-**Asteriscos dobles, negrita**
-***Asteriscos triples es cursiva y negrita***
-`[](link)` para links
-`![alt text](dirección de imagen) para cargar una imagen.`
-Se puede usar HTML, como `<span style='color:#ffd700'></span>`
-Encerrar en ` es para mostrar la línea de código como texto
-Encerrar entre ``` genera bloque de código
-> Empezar con > para citas. Se pueden anidar
+
+*Asteriscos simples es cursiva*  
+**Asteriscos dobles, negrita**  
+***Asteriscos triples es cursiva y negrita***  
+`[](link)` para links  
+`![alt text](dirección de imagen) para cargar una imagen.`  
+<span style='color:#ffd700'>Se puede usar HTML, como  `<span style='color:#ffd700'></span>`</span>  
+Encerrar en ` es para mostrar la línea de código como texto  
+
+```python 
+    # Encerrar entre tres ` genera bloque de código. Escribir qué lenguaje luego de las primeras tres 
+```
+> Empezar con > para citas. Se pueden anidar  
+
+Para listas se usa | como separación, con primer renglón encabezado, segundo formato y después los datos:  
+encabezado1 | Encabezado 2
+------------|-------------
+dato1       | dato2

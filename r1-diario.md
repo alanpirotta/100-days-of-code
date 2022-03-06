@@ -1553,3 +1553,27 @@ https://www.kaggle.com/c/tabular-playground-series-mar-2022/overview
 - Ordenar y hacer mejores apuntes de teoría y quizás un modelo, respondiendo por ejemplo:
       - Qué tipos de modelos sirven para cada tipo de aprendizaje
       - Pasos comunes de hacer al comenzar un análisis de datos, dependiendo desde donde vengan y con qué objetivo.
+
+### R1D98
+**Progreso**:  
+1.5 horas.  
+Seguí investigando un poco más sobre Markdown, para aprender a usarlo bien y mejorar la calidad visual de mis notebooks. Hice el primer módulo del playground de Digital House.  
+Creé un repo para ir ubicando todos los apuntes y modelos ordenados que vaya creando. Investigué un poco más sobre las licencias para los repos.
+
+**Conflictos:**  
+Ninguno
+
+**Reflexiones:**  
+Estoy emocionado por empezar el curso, creo que me va a ayudar mucho a aprender como trabajar en equipo en ciencia de datos, que es algo que me faltó al estudiar mucho por mi cuenta, y a ordenar todos los conocimientos que fui adquiriendo con el estudio, los ejercicios y los proyectos.
+
+**Enlace a mi trabajo:** 
+https://github.com/alanpirotta/apuntes_y_modelos
+
+**Libro:**
+> Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+**Certificación en proceso** 
+https://codigofacilito.com/cursos/escritura-programadores
+
+**Competencia en proceso** 
+https://www.kaggle.com/c/tabular-playground-series-mar-2022/overview *hoy no toqué esto*
