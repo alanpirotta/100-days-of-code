@@ -691,12 +691,14 @@ Ej de .gitignore: https://gist.github.com/octocat/9257657
     train_df_no_outliers = train_df[(np.abs(stats.zscore(train_df)) < 3).all(axis=1)]  
 
 - Para comprobar que un dataset ya está descargado:
+    ```python
     import pathlib
     file = pathlib.Path("folder/file")
     if file.exists():
         print('Files already exists')
     else:
         print('Creating the file')
+    ```
 
 ### R1D93
 
@@ -706,7 +708,7 @@ Ej de .gitignore: https://gist.github.com/octocat/9257657
 ConvergenceWarning: lbfgs failed to converge (status=1):
 STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
 
-**Respuesta útiles:**
+**Respuestas útiles:**
 https://stackoverflow.com/questions/62658215/convergencewarning-lbfgs-failed-to-converge-status-1-stop-total-no-of-iter
 
 - Se puede aumentar el número de iteraciones con LogisticRegression(solver='lbfgs', max_iter=XXX) con XXX > 100
@@ -729,8 +731,9 @@ https://stackoverflow.com/questions/62658215/convergencewarning-lbfgs-failed-to-
 
 Ejemplo de como reducir el uso de memoria optimizando dtypes para floats:
 
-display(f'Initial memory usage: {df.memory_usage().sum()/1024**2:.2f}')
+`display(f'Initial memory usage: {df.memory_usage().sum()/1024**2:.2f}')`
 
+```python
 def reduce_memory_usage(df):
     start_mem = df.memory_usage().sum()/1024**2
     datatypes = ['float16', 'float32', 'float64']
@@ -747,6 +750,7 @@ def reduce_memory_usage(df):
     return df
 
 df = reduce_memory_usage(train)
+```
 
 - Cardinality: Número de valores únicos en las features. Por ej: Si tiene muy pocos valores, quizás considerar a esa feature categórica tenga mejores resultados.
 - df.nunique(): Cuenta la cantidad de valores unicos en el eje específicado (axis=0 columnas)
@@ -786,3 +790,17 @@ Para listas se usa | como separación, con primer renglón encabezado, segundo f
 encabezado1 | Encabezado 2
 ------------|-------------
 dato1       | dato2
+
+### R1D99
+
+Git/GitHub
+
+- git clone url : Clonar un repo entero.
+- git remote origin url : Agregar una conexión a un repo en la carpeta actual.
+- git add .  : Agregar/stage todas las modificaciones
+- git commit -m ""  : Generar un commit
+- git push origin main/master : Pushear/enviar todos los commits creados, a la rama ppal
+- git status : Da el estado del repo local
+- git config -l : Lista toda la config del git
+- git pull origin master: Trae los cambios del repo en github que no estén en local
+- git checkout codCommit : Trae la versión que se le pida del repo. Si se pone master/main trae la actual

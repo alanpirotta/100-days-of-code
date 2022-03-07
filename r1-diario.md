@@ -1577,3 +1577,23 @@ https://codigofacilito.com/cursos/escritura-programadores
 
 **Competencia en proceso** 
 https://www.kaggle.com/c/tabular-playground-series-mar-2022/overview *hoy no toqué esto*
+
+### R1D99  
+**Progreso**:  
+1.5 horas.  
+Seminario de Git/Github en Digital House.  
+Lectura sobre unsupervised learning en el libro, K-means, DBSCAN y agglomerative clustering.
+
+**Conflictos:**  
+Ninguno
+
+**Reflexiones:**  
+El módulo 2 del curso de DH son muchos seminarios sobre diferentes temas, iré viéndolos estos días. Hoy vi el de Git/gitHub, muchas cosas ya las sabía pero me di cuenta que algunas cosas MUY simples me las estaba perdiendo (como que se crea la carpeta .git oculta en la carpeta asociada al repo).  
+Al final no llegé a ordenar mucho las notas que fui haciendo, pero por ahora me sirve porque busco el tema y lo encuentro rápido, y la organización la iré haciendo de a poco.
+
+**Libro:**
+> Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+**Curso en proceso**  
+> Data Science a Distancia - Digital house
+https://playground.digitalhouse.com/login
