@@ -1595,5 +1595,33 @@ Al final no llegé a ordenar mucho las notas que fui haciendo, pero por ahora me
 > Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
 
 **Curso en proceso**  
-> Data Science a Distancia - Digital house
+> Data Science a Distancia - Digital house  
+https://playground.digitalhouse.com/login 
+
+### R1D100  
+**Progreso**:  
+2.5 horas.  
+Primera clase presencial del curso.
+Lectura sobre Data engineerign en el libro, reducción de dimensionalidad, bins (agrupar en menos datos, mas ordenados) y transformación de features usando funciones.  
+Transformar con log y exp la feature sirve para "skewed distributions", sin y cos sirven para features periodicas o ciclicas
+
+**Conflictos:**  
+No codee casi nada.
+
+**Reflexiones:**  
+Último día de esta ronda! Me parece una genial coincidencia el día que cayó, para empezar la siguiente etapa de aprendizaje. Hoy no aprendí demasiado del estudio en la clase, aunque trabajamos en equipo (medio a contrareloj igual), y lo disfruté mucho.
+
+
+**Libro:**
+> Introduction to machine learning with python: a guide for data scientists - Andreas C. Muller y Sarah Guido
+
+**Curso en proceso**  
+> Data Science a Distancia - Digital house  
 https://playground.digitalhouse.com/login
+
+### **Conclusión del reto**
+
+Me llevó del reto una muy buena sensación. Hacerlo me obligó e incentivó a sentarme, pensar y ordenarme para decidir que hacer en ese momento y los días siguientes, enfrentarme a situaciones donde no iba a tener mucho tiempo pero codear aunque sea una hora me servía y gustaba. Como contraparte, hizo que esté casi todo el tiempo pensando en esto, y eso me dio sus buenos y sus malos momentos (me enseñó a aprovechar muchísimo mejor el tiempo, pero también me afectó mucho más cuando no logré hacerlo).  
+
+Realmente confirmé que esto me apasiona, que sentarme a investigar, desarrollar y analizar es algo que disfruto muchísimo. Es lo que me voy a dedicar en el futuro, y haré lo posible para llegar a eso.
+Desde mañana, me tomaré un semi descanso de dos semanas donde sólo haré lo del curso y leer el libro, para poder mechar un poco con apreovechar los descansos y hacer otras cosas. Luego veré como equilibrar bien todo, para encontrar el punto ideal.🙂
